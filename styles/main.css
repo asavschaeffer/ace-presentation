@@ -304,23 +304,24 @@ body {
   height: 100%;
 }
 
-/* UI Overlays */
+/* UI Overlays - Now minimal, only shows section headers */
 .ui-overlays {
   position: relative;
   z-index: var(--z-content);
   height: 100vh;
+  pointer-events: none; /* Let clicks pass through to 3D scene */
 }
 
-/* Presentation Sections */
+/* Presentation Sections - Now only show minimal header info */
 .presentation-section {
   position: absolute;
-  top: 0;
+  top: 80px; /* Below nav bar */
   left: 0;
   width: 100%;
-  height: 100%;
-  padding: var(--spacing-xl);
+  height: auto; /* Auto height for headers only */
+  padding: var(--spacing-md);
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   opacity: 0;
   pointer-events: none;
@@ -329,17 +330,18 @@ body {
 
 .presentation-section.active {
   opacity: 1;
-  pointer-events: auto;
+  pointer-events: none; /* Still no pointer events - 3D scene handles interaction */
 }
 
 .section-content {
-  max-width: 800px;
+  max-width: 600px;
   text-align: center;
-  background: rgba(255, 255, 255, 0.95);
-  padding: var(--spacing-xl);
-  border-radius: 12px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.9);
+  padding: var(--spacing-md);
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  margin-bottom: var(--spacing-lg);
 }
 
 .section-title {
@@ -356,12 +358,9 @@ body {
   color: var(--color-text-secondary);
 }
 
-/* Chaotic Papers Container */
+/* Chaotic Papers Container - Hidden, 3D scene handles interaction */
 .chaos-papers-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: var(--spacing-md);
-  margin-top: var(--spacing-lg);
+  display: none; /* Hidden - interact with 3D papers instead */
 }
 
 .chaos-paper {
@@ -395,6 +394,44 @@ body {
 .chaos-paper p {
   font-size: var(--font-size-small);
   opacity: 0.9;
+}
+
+/* Hide other content containers - 3D scene handles all interaction */
+.valet-solutions-container,
+.binder-container,
+.dashboard-container,
+.closing-actions {
+  display: none;
+}
+
+/* 3D Scene Tooltip */
+.scene-tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  pointer-events: none;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  white-space: nowrap;
+}
+
+.scene-tooltip.show {
+  opacity: 1;
+}
+
+/* Section headers only - minimal styling */
+.section-title {
+  font-size: var(--font-size-xl);
+  margin-bottom: var(--spacing-sm);
+}
+
+.section-description {
+  font-size: var(--font-size-base);
+  margin-bottom: 0;
 }
 
 /* Valet Solutions Container */

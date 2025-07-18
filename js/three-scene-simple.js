@@ -262,8 +262,12 @@ class ThreeSceneController {
       hoveredObject.scale.set(1.1, 1.1, 1.1);
       hoveredObject.material.emissive.setHex(0x444444);
       this.canvas.style.cursor = 'pointer';
+      
+      // Show tooltip
+      this.showTooltip(hoveredObject, event.clientX, event.clientY);
     } else {
-      this.canvas.style.cursor = 'default';
+      this.canvas.style.cursor = 'crosshair';
+      this.hideTooltip();
     }
   }
 
@@ -543,12 +547,65 @@ class ThreeSceneController {
   }
 
   /**
+   * Show tooltip for hovered object
+   */
+  showTooltip(object, x, y) {
+    const { type, problemData } = object.userData;
+    
+    let tooltipText = '';
+    switch (type) {
+      case 'paper':
+        tooltipText = problemData ? problemData.title : 'Click to view problem';
+        break;
+      case 'firefighter':
+        tooltipText = 'Valet (Firefighter) - Click to learn more';
+        break;
+      case 'watchtower':
+        tooltipText = 'Manager (Watchtower) - Click to learn more';
+        break;
+      case 'plane':
+        tooltipText = 'Executive (Plane) - Click to learn more';
+        break;
+      case 'binder':
+        tooltipText = 'Operations Manual - Click to open';
+        break;
+      default:
+        tooltipText = 'Click to interact';
+    }
+    
+    // Create tooltip if it doesn't exist
+    if (!this.tooltip) {
+      this.tooltip = document.createElement('div');
+      this.tooltip.className = 'scene-tooltip';
+      document.body.appendChild(this.tooltip);
+    }
+    
+    this.tooltip.textContent = tooltipText;
+    this.tooltip.style.left = (x + 10) + 'px';
+    this.tooltip.style.top = (y - 30) + 'px';
+    this.tooltip.classList.add('show');
+  }
+
+  /**
+   * Hide tooltip
+   */
+  hideTooltip() {
+    if (this.tooltip) {
+      this.tooltip.classList.remove('show');
+    }
+  }
+
+  /**
    * Cleanup
    */
   cleanup() {
     this.canvas.removeEventListener('mousemove', this.onMouseMove);
     this.canvas.removeEventListener('click', this.onMouseClick);
     window.removeEventListener('resize', this.onWindowResize);
+    
+    if (this.tooltip) {
+      document.body.removeChild(this.tooltip);
+    }
     
     if (this.renderer) {
       this.renderer.dispose();

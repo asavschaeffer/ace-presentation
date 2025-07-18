@@ -142,6 +142,10 @@ class ACEPresentation {
     
     // Custom events
     window.addEventListener('paperClicked', this.handlePaperClick);
+    window.addEventListener('firefighterClicked', this.handleFirefighterClick.bind(this));
+    window.addEventListener('watchtowerClicked', this.handleWatchtowerClick.bind(this));
+    window.addEventListener('planeClicked', this.handlePlaneClick.bind(this));
+    window.addEventListener('binderClicked', this.handleBinderClick.bind(this));
     window.addEventListener('sectionChanged', this.handleSectionChange);
     window.addEventListener('modalClosed', this.handleModalClosed.bind(this));
     window.addEventListener('solutionImplemented', this.handleSolutionImplemented.bind(this));
@@ -572,6 +576,48 @@ class ACEPresentation {
   }
 
   /**
+   * Handle firefighter click
+   * @param {Event} e - Firefighter click event
+   */
+  handleFirefighterClick(e) {
+    const { type, message } = e.detail;
+    this.showCharacterModal('firefighter', 'The Valet (Firefighter)', 
+      'Our valets are like firefighters - they respond to problems as they arise. ' +
+      'They need the right tools and training to handle any situation effectively.');
+  }
+
+  /**
+   * Handle watchtower click
+   * @param {Event} e - Watchtower click event
+   */
+  handleWatchtowerClick(e) {
+    const { type, message } = e.detail;
+    this.showCharacterModal('watchtower', 'The Manager (Watchtower)', 
+      'Managers oversee operations from their watchtower position. ' +
+      'They need clear visibility into processes and the ability to guide the team.');
+  }
+
+  /**
+   * Handle plane click
+   * @param {Event} e - Plane click event
+   */
+  handlePlaneClick(e) {
+    const { type, message } = e.detail;
+    this.showCharacterModal('plane', 'The Executive (Fire Spotter Plane)', 
+      'Executives survey the entire operation from above. ' +
+      'They need strategic oversight and predictive analytics to prevent issues before they become fires.');
+  }
+
+  /**
+   * Handle binder click
+   * @param {Event} e - Binder click event
+   */
+  handleBinderClick(e) {
+    const { type, message } = e.detail;
+    this.showBinderModal();
+  }
+
+  /**
    * Handle section change
    * @param {Event} e - Section change event
    */
@@ -617,6 +663,74 @@ class ACEPresentation {
   showProblemModal(problemData) {
     if (this.modalSystem) {
       this.modalSystem.showProblemModal(problemData);
+    }
+  }
+
+  /**
+   * Show character modal
+   * @param {string} type - Character type
+   * @param {string} title - Modal title
+   * @param {string} content - Modal content
+   */
+  showCharacterModal(type, title, content) {
+    if (this.modalSystem) {
+      this.modalSystem.showCharacterModal({
+        title: title,
+        content: content,
+        type: 'character',
+        characterType: type,
+        primaryButton: {
+          text: 'Learn More',
+          action: () => {
+            // Navigate to relevant section
+            const sectionMap = {
+              'firefighter': 'valet',
+              'watchtower': 'manager', 
+              'plane': 'executive'
+            };
+            const targetSection = sectionMap[type];
+            if (targetSection) {
+              this.navigateToSection(targetSection);
+            }
+          }
+        },
+        secondaryButton: {
+          text: 'Close',
+          action: () => {
+            this.modalSystem.closeModal();
+          }
+        }
+      });
+    }
+  }
+
+  /**
+   * Show binder modal
+   */
+  showBinderModal() {
+    if (this.modalSystem) {
+      this.modalSystem.showCharacterModal({
+        title: 'Operations Manual',
+        content: 'This is the central operations manual containing all procedures, training materials, and accountability systems. Click to open the full binder in the Manager section.',
+        type: 'binder',
+        primaryButton: {
+          text: 'Open Binder',
+          action: () => {
+            this.navigateToSection('manager');
+            // Open the binder in the manager section
+            const binder = document.getElementById('operations-binder');
+            if (binder) {
+              binder.click();
+            }
+          }
+        },
+        secondaryButton: {
+          text: 'Close',
+          action: () => {
+            this.modalSystem.closeModal();
+          }
+        }
+      });
     }
   }
 

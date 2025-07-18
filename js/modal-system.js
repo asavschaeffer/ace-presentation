@@ -376,6 +376,51 @@ class ModalSystem {
   }
 
   /**
+   * Show character modal
+   * @param {Object} options - Modal options
+   */
+  showCharacterModal(options = {}) {
+    this.currentModal = {
+      type: 'character',
+      data: options
+    };
+    
+    if (this.modalTitle) {
+      this.modalTitle.textContent = options.title || 'Character Details';
+    }
+    
+    const characterContent = `
+      <div class="character-details">
+        <div class="character-description">
+          <p>${options.content || 'No description available.'}</p>
+        </div>
+      </div>
+    `;
+    
+    if (this.modalBody) {
+      this.modalBody.innerHTML = characterContent;
+    }
+    
+    // Hide problem-specific sections
+    if (this.problemSection) this.problemSection.style.display = 'none';
+    if (this.impactSection) this.impactSection.style.display = 'none';
+    if (this.solutionSection) this.solutionSection.style.display = 'none';
+    
+    // Update buttons
+    if (this.primaryButton) {
+      this.primaryButton.textContent = options.primaryButton?.text || 'Learn More';
+      this.primaryButton.style.display = 'inline-block';
+    }
+    
+    if (this.secondaryButton) {
+      this.secondaryButton.textContent = options.secondaryButton?.text || 'Close';
+      this.secondaryButton.style.display = 'inline-block';
+    }
+    
+    this.showModal();
+  }
+
+  /**
    * Show generic modal
    * @param {Object} options - Modal options
    */
@@ -484,6 +529,9 @@ class ModalSystem {
       case 'roi':
         this.handleExportPDF();
         break;
+      case 'character':
+        this.handleCharacterPrimaryAction();
+        break;
     }
   }
 
@@ -506,7 +554,40 @@ class ModalSystem {
       case 'roi':
         this.hideModal();
         break;
+      case 'character':
+        this.handleCharacterSecondaryAction();
+        break;
     }
+  }
+
+  /**
+   * Handle character primary action
+   */
+  handleCharacterPrimaryAction() {
+    const characterData = this.currentModal.data;
+    
+    // Execute the primary action if provided
+    if (characterData.primaryButton?.action) {
+      characterData.primaryButton.action();
+    }
+    
+    // Hide modal
+    this.hideModal();
+  }
+
+  /**
+   * Handle character secondary action
+   */
+  handleCharacterSecondaryAction() {
+    const characterData = this.currentModal.data;
+    
+    // Execute the secondary action if provided
+    if (characterData.secondaryButton?.action) {
+      characterData.secondaryButton.action();
+    }
+    
+    // Hide modal
+    this.hideModal();
   }
 
   /**
