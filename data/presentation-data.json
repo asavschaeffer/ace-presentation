@@ -1,0 +1,414 @@
+{
+  "presentation": {
+    "title": "ACE Valet Operations Improvement Proposal",
+    "subtitle": "From Reactive Chaos to Proactive Excellence",
+    "duration": "5-7 minutes",
+    "sections": [
+      {
+        "id": "chaos",
+        "title": "The Chaotic Desk",
+        "subtitle": "Current Reality",
+        "description": "Our valets are like firefighters, but they're being sent to fight a forest fire without a map or a radio. The result is chaos that directly impacts service, morale, and the bottom line.",
+        "presenterCue": "Click any paper to begin exploring the current operational challenges"
+      },
+      {
+        "id": "valet",
+        "title": "The Firefighter Solution",
+        "subtitle": "Valet Layer",
+        "description": "By equipping our frontline valets with standardized procedures and simple decision-making tools, we empower them to turn chaos into order, one task at a time.",
+        "presenterCue": "Click 'Implement Solution' on any problem modal to show the paper-to-binder animation"
+      },
+      {
+        "id": "manager",
+        "title": "The Watchtower Perspective",
+        "subtitle": "Manager Layer",
+        "description": "Managers, from their vantage point, use these systems to direct the team, enforce standards, and ensure every valet is operating from the same playbook.",
+        "presenterCue": "Click the binder to open it, then navigate through the tabs to show management initiatives"
+      },
+      {
+        "id": "executive",
+        "title": "The Strategic Altitude",
+        "subtitle": "Executive Layer",
+        "description": "From a strategic altitude, the executive team can see the entire picture. This system provides the data to not just spot fires, but to predict and prevent them.",
+        "presenterCue": "Click on KPI cards to drill down into metrics. Use the ROI simulator to show projected improvements"
+      },
+      {
+        "id": "closing",
+        "title": "The Transformation",
+        "subtitle": "Call to Action",
+        "description": "With clear systems, empowered staff, and data-driven oversight, ACE can transform its operations. Let's prove it, starting with a pilot at the Marriott Marquis.",
+        "presenterCue": "Click 'Launch Pilot' to show the final ROI modal, then export PDF for stakeholder sharing"
+      }
+    ]
+  },
+  "problems": [
+    {
+      "id": "damage-claim-01",
+      "section": "valet",
+      "priority": 1,
+      "title": "$7,500 Damage Claim",
+      "description": "A poorly trained valet caused $7,500 in damage to a handicap vehicle on 4/25, highlighting the cost of inadequate training.",
+      "impact": "Significant financial loss, negative guest experience, and increased insurance liability.",
+      "solution": "Implement mandatory, assessed training with specific modules for vehicle types and a BDT for handling exceptions.",
+      "paper_image": "damage_claim_icon.png",
+      "paper_color": "red",
+      "category": "training",
+      "financial_impact": 7500
+    },
+    {
+      "id": "lost-keys-01",
+      "section": "valet",
+      "priority": 2,
+      "title": "Lost Keys",
+      "description": "Reliance on sticky notes for room numbers leads to key loss, guest frustration, and incorrect billing.",
+      "impact": "Guest dissatisfaction, revenue loss from incorrect billing, and operational inefficiencies.",
+      "solution": "Implement Revised Call-Down Logs & Key Tracking for clear chain of custody.",
+      "paper_image": "sticky_note_icon.png",
+      "paper_color": "yellow",
+      "category": "processes",
+      "financial_impact": 500
+    },
+    {
+      "id": "no-training-01",
+      "section": "valet",
+      "priority": 3,
+      "title": "No Training",
+      "description": "Six new valets with zero experience from the 'new training program' were useless, unable to write tickets or perform basic functions.",
+      "impact": "Poor guest service, increased training costs, and operational disruption.",
+      "solution": "Develop a formal 2-4 hour initial training program and designate 'Mentor Valets' to ensure consistency.",
+      "paper_image": "training_icon.png",
+      "paper_color": "red",
+      "category": "training",
+      "financial_impact": 2000
+    },
+    {
+      "id": "staffing-gap-01",
+      "section": "valet",
+      "priority": 4,
+      "title": "Staffing Gap Over-spend",
+      "description": "Current inefficiencies and turnover contribute to staffing gap bonuses exceeding $3,000 per month.",
+      "impact": "Excessive operational costs and reduced profitability.",
+      "solution": "Implement consistent consequences for lateness and no-shows, which currently often go unaddressed.",
+      "paper_image": "money_icon.png",
+      "paper_color": "red",
+      "category": "accountability",
+      "financial_impact": 36000
+    },
+    {
+      "id": "disorganized-keys-01",
+      "section": "valet",
+      "priority": 5,
+      "title": "Disorganized Key Basket",
+      "description": "Current key management system lacks proper organization and tracking, leading to delays and lost keys.",
+      "impact": "Increased car retrieval times, guest frustration, and potential security risks.",
+      "solution": "Implement Revised Call-Down Logs & Key Tracking for clear chain of custody.",
+      "paper_image": "keys_icon.png",
+      "paper_color": "yellow",
+      "category": "processes",
+      "financial_impact": 1000
+    },
+    {
+      "id": "taxi-congestion-01",
+      "section": "valet",
+      "priority": 6,
+      "title": "Taxi Congestion on Ramp",
+      "description": "Lack of clear procedures for taxi management creates bottlenecks and conflicts on the ramp.",
+      "impact": "Operational delays, guest inconvenience, and increased stress for valets.",
+      "solution": "Provide valets with pre-printed cards with QR codes and instructions for taxi drivers.",
+      "paper_image": "taxi_icon.png",
+      "paper_color": "yellow",
+      "category": "processes",
+      "financial_impact": 800
+    },
+    {
+      "id": "complex-parking-01",
+      "section": "valet",
+      "priority": 7,
+      "title": "Complex Parking Decisions",
+      "description": "Valets struggle with parking decisions for oversized vehicles and special situations without clear guidelines.",
+      "impact": "Inefficient space utilization, potential damage, and inconsistent service.",
+      "solution": "Introduce Binary Decision Trees (BDTs) to guide valets through common scenarios, ensuring consistent, efficient actions.",
+      "paper_image": "parking_icon.png",
+      "paper_color": "red",
+      "category": "processes",
+      "financial_impact": 1200
+    },
+    {
+      "id": "inconsistent-procedures-01",
+      "section": "valet",
+      "priority": 8,
+      "title": "Inconsistent Procedures",
+      "description": "Different valets handle similar situations differently, leading to confusion and quality issues.",
+      "impact": "Inconsistent guest experience, training difficulties, and operational inefficiencies.",
+      "solution": "Document & Implement Standard Operating Procedures (SOPs) for all key tasks and scenarios.",
+      "paper_image": "procedures_icon.png",
+      "paper_color": "yellow",
+      "category": "processes",
+      "financial_impact": 1500
+    },
+    {
+      "id": "white-ticket-revenue-01",
+      "section": "valet",
+      "priority": 9,
+      "title": "White Ticket Revenue Loss",
+      "description": "Incorrect time stamping for hourly parking results in lost revenue opportunities.",
+      "impact": "Daily revenue loss estimated at $7+ per white ticket through inaccurate billing.",
+      "solution": "Optimize 'White Ticket' (Hourly) Process: Mandate time stamping immediately upon guest arrival.",
+      "paper_image": "ticket_icon.png",
+      "paper_color": "red",
+      "category": "processes",
+      "financial_impact": 2555
+    },
+    {
+      "id": "equipment-shortage-01",
+      "section": "valet",
+      "priority": 10,
+      "title": "Equipment Shortage",
+      "description": "Valets often lack basic equipment like clickers, proper pens, and key rings needed for efficient operations.",
+      "impact": "Reduced operational efficiency, unprofessional appearance, and frustrated employees.",
+      "solution": "Standardize equipment availability with proper tracking and deposit systems.",
+      "paper_image": "equipment_icon.png",
+      "paper_color": "yellow",
+      "category": "processes",
+      "financial_impact": 600
+    }
+  ],
+  "solutions": [
+    {
+      "id": "training-program",
+      "title": "Formal Initial Training Program",
+      "description": "Create a 2-4 hour mandatory group session covering 'The ACE Way,' core procedures, customer service scripts, and safety protocols.",
+      "category": "training",
+      "benefit": "Reduces training inconsistencies and ensures all valets have baseline competencies",
+      "implementation": "Phase 2: 6-12 months",
+      "roi": "Reduces damage claims by 60% and improves guest satisfaction scores"
+    },
+    {
+      "id": "mentor-program",
+      "title": "Mentor Valet Program",
+      "description": "Pair new hires with experienced, designated 'Mentor Valets' for structured guidance during initial weeks.",
+      "category": "training",
+      "benefit": "Ensures consistent knowledge transfer and reduces new hire turnover",
+      "implementation": "Phase 2: 6-12 months",
+      "roi": "Reduces turnover costs by 40% and accelerates new hire productivity"
+    },
+    {
+      "id": "sop-documentation",
+      "title": "Standard Operating Procedures",
+      "description": "Document clear SOPs for all key tasks including ramp management, damage checks, and parking methods.",
+      "category": "processes",
+      "benefit": "Creates consistency across all operations and reduces errors",
+      "implementation": "Phase 2: 6-12 months",
+      "roi": "Reduces operational errors by 50% and improves efficiency"
+    },
+    {
+      "id": "binary-decision-trees",
+      "title": "Binary Decision Trees",
+      "description": "Create simple, visual decision trees for common scenarios to guide consistent decision-making.",
+      "category": "processes",
+      "benefit": "Eliminates guesswork and ensures consistent responses to common situations",
+      "implementation": "Phase 2: 6-12 months",
+      "roi": "Reduces decision-making time by 30% and improves consistency"
+    },
+    {
+      "id": "key-tracking-system",
+      "title": "Key Tracking System",
+      "description": "Implement revised call-down logs and key tracking to establish clear chain of custody.",
+      "category": "processes",
+      "benefit": "Eliminates lost keys and improves billing accuracy",
+      "implementation": "Phase 1: 3-6 months",
+      "roi": "Reduces key-related incidents by 90% and improves guest satisfaction"
+    },
+    {
+      "id": "performance-tracking",
+      "title": "Performance Tracking & Reporting",
+      "description": "Systematically track performance using data-driven metrics and provide regular feedback.",
+      "category": "accountability",
+      "benefit": "Enables objective performance management and identifies improvement opportunities",
+      "implementation": "Phase 3: 12+ months",
+      "roi": "Increases productivity by 25% and reduces management time"
+    }
+  ],
+  "managerInitiatives": [
+    {
+      "id": "training-tab",
+      "title": "Training Management",
+      "description": "Develop a formal 2-4 hour initial training program and designate 'Mentor Valets' to ensure consistency, unlike the current 'whoever is working' approach.",
+      "items": [
+        "Mandatory group training sessions",
+        "Designated Mentor Valet assignments",
+        "Skills assessment and certification",
+        "Ongoing training modules for skill development",
+        "Performance-based advancement opportunities"
+      ]
+    },
+    {
+      "id": "processes-tab",
+      "title": "Process Standardization",
+      "description": "Mandate the use of Standardized Daily Pass-Down Sheets and Site Audit Checklists to document procedures and hazards.",
+      "items": [
+        "Daily Pass-Down Sheets implementation",
+        "Site Audit Checklists for all locations",
+        "Standard Operating Procedures documentation",
+        "Binary Decision Trees for common scenarios",
+        "Equipment standardization and tracking"
+      ]
+    },
+    {
+      "id": "accountability-tab",
+      "title": "Accountability & Performance",
+      "description": "Implement consistent consequences for lateness and no-shows, which currently often go unaddressed.",
+      "items": [
+        "Attendance tracking and consequences",
+        "Regular performance reviews with objective data",
+        "Recognition programs for top performers",
+        "Clear escalation procedures for issues",
+        "Career advancement pathways"
+      ]
+    }
+  ],
+  "executiveKPIs": [
+    {
+      "id": "revenue-capture",
+      "title": "Revenue Capture",
+      "value": "$7+",
+      "unit": "per white ticket daily",
+      "description": "Increase daily revenue by over $7 per white ticket through accurate time-stamping procedures.",
+      "trend": "positive",
+      "trend_value": "+15%",
+      "details": "Accurate time stamping for hourly parking, tracked via the proposed system adjustment, is expected to increase revenue capture significantly.",
+      "current": 2555,
+      "target": 4000,
+      "category": "revenue"
+    },
+    {
+      "id": "damage-costs",
+      "title": "Damage Claim Costs",
+      "value": "$14,500",
+      "unit": "annual reduction",
+      "description": "Reduce costs from incidents like the $7,000 and $7,500 claims by implementing better training and tracking.",
+      "trend": "positive",
+      "trend_value": "-60%",
+      "details": "Better training, standardized procedures, and clear accountability will reduce damage claims and associated costs.",
+      "current": 25000,
+      "target": 10500,
+      "category": "cost-reduction"
+    },
+    {
+      "id": "service-credits",
+      "title": "Service Credits",
+      "value": "$75",
+      "unit": "per night saved",
+      "description": "Minimize revenue loss from comped $75/night parking fees by reducing service failures.",
+      "trend": "positive",
+      "trend_value": "-40%",
+      "details": "Fewer service errors and improved overall service quality will lead to reduced revenue loss from comped parking.",
+      "current": 18000,
+      "target": 10800,
+      "category": "cost-reduction"
+    },
+    {
+      "id": "employee-retention",
+      "title": "Employee Retention",
+      "value": "33-200%",
+      "unit": "of annual salary saved",
+      "description": "Lower turnover costs, estimated at 33-200% of annual salary per employee, through enhanced training, recognition, and clear career paths.",
+      "trend": "positive",
+      "trend_value": "+35%",
+      "details": "Improvements in training, clear expectations, and feeling valued are expected to increase employee retention significantly.",
+      "current": 45,
+      "target": 75,
+      "category": "retention"
+    }
+  ],
+  "roiSimulator": {
+    "baseInvestment": 50000,
+    "minInvestment": 10000,
+    "maxInvestment": 100000,
+    "step": 5000,
+    "calculations": {
+      "trainingCostPerEmployee": 200,
+      "damageReductionRate": 0.6,
+      "revenueIncreaseRate": 0.15,
+      "retentionImprovementRate": 0.35,
+      "averageEmployeeSalary": 35000,
+      "turnoverCostMultiplier": 1.5
+    }
+  },
+  "pilot": {
+    "location": "Marriott Marquis San Diego Marina",
+    "duration": "6 months",
+    "phases": [
+      {
+        "phase": 1,
+        "title": "Foundational Systems & Data Capture",
+        "duration": "3-6 months",
+        "components": [
+          "Daily Pass-Down Sheets",
+          "Key Tracking System",
+          "White Ticket Process Optimization",
+          "Site Audit Template",
+          "Basic Data Collection Software"
+        ]
+      },
+      {
+        "phase": 2,
+        "title": "Training & Process Standardization",
+        "duration": "6-12 months",
+        "components": [
+          "Initial Training Module",
+          "Basic SOPs",
+          "Mentor Program Setup",
+          "Binary Decision Trees",
+          "Site-specific Training"
+        ]
+      },
+      {
+        "phase": 3,
+        "title": "Performance Management",
+        "duration": "12+ months",
+        "components": [
+          "Performance Tracking System",
+          "Recognition Programs",
+          "Career Development Pathways",
+          "Culture Enhancement Initiatives"
+        ]
+      }
+    ],
+    "expectedOutcomes": [
+      "Significant cost reductions in turnover, damages, and bonuses",
+      "Enhanced revenue through improved billing accuracy",
+      "Securing multi-million dollar contracts through superior service delivery",
+      "Improved employee morale and retention",
+      "Consistent, professional service delivery"
+    ]
+  },
+  "aceWay": {
+    "vision": {
+      "title": "VISION",
+      "description": "Situational awareness, career path"
+    },
+    "values": {
+      "title": "VALUES", 
+      "description": "Employees are valued"
+    },
+    "team": {
+      "title": "TEAM",
+      "description": "Collaboration is essential"
+    }
+  },
+  "testimonials": [
+    {
+      "source": "Ben McClelland, Site Manager",
+      "text": "Val stood out in a team of over 36 valets — consistently earning more guest name mentions than any other team member, which speaks volumes about his dedication to service and impact."
+    },
+    {
+      "source": "Austin King, Assistant Manager",
+      "text": "Despite working only two shifts per week, Val has earned more positive TripAdvisor reviews than the rest of the team combined—by a substantial margin."
+    },
+    {
+      "source": "Guest Review",
+      "text": "Val the valet was by far the best valet experience I've had in the last 5 years traveling to San Diego. Outstanding employee and one who is passionate about his job."
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACE Valet Operations Improvement - Interactive Presentation</title>
+    <meta name="description" content="Interactive presentation demonstrating ACE Parking's valet operations improvement proposal">
+    
+    <!-- External Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/interact.js/1.10.11/interact.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="data/presentation-data.json" as="fetch" type="application/json">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <h2>Loading ACE Presentation...</h2>
+            <p>Preparing your interactive experience</p>
+        </div>
+    </div>
+
+    <!-- Main Application -->
+    <div id="app" class="app" style="display: none;">
+        <!-- Navigation -->
+        <nav class="nav-bar" role="navigation" aria-label="Presentation navigation">
+            <div class="nav-content">
+                <div class="nav-brand">
+                    <h1>ACE Operations Transformation</h1>
+                </div>
+                <div class="nav-controls">
+                    <button id="skip-menu-btn" class="nav-btn" aria-label="Skip to section">
+                        Skip To...
+                    </button>
+                    <button id="demo-mode-btn" class="nav-btn" aria-label="Start demo mode">
+                        Auto Demo
+                    </button>
+                    <button id="presenter-mode-btn" class="nav-btn" aria-label="Toggle presenter mode">
+                        Presenter Mode
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Skip Menu -->
+        <div id="skip-menu" class="skip-menu" role="menu" aria-hidden="true">
+            <button class="skip-item" data-section="chaos" role="menuitem">1. The Chaotic Desk</button>
+            <button class="skip-item" data-section="valet" role="menuitem">2. Valet Layer</button>
+            <button class="skip-item" data-section="manager" role="menuitem">3. Manager Layer</button>
+            <button class="skip-item" data-section="executive" role="menuitem">4. Executive Layer</button>
+            <button class="skip-item" data-section="closing" role="menuitem">5. Call to Action</button>
+        </div>
+
+        <!-- Presenter Mode Overlay -->
+        <div id="presenter-overlay" class="presenter-overlay" aria-hidden="true">
+            <div class="presenter-content">
+                <div class="presenter-timer">
+                    <span id="presentation-timer">00:00</span>
+                </div>
+                <div class="presenter-notes">
+                    <h3>Current Section: <span id="current-section-name">Opening</span></h3>
+                    <p id="presenter-cue">Click any paper to begin exploring the current operational challenges</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Presentation Container -->
+        <main class="presentation-container" role="main">
+            <!-- Three.js 3D Scene -->
+            <div id="scene-container" class="scene-container">
+                <canvas id="three-canvas"></canvas>
+            </div>
+
+            <!-- UI Overlays -->
+            <div class="ui-overlays">
+                <!-- Section 1: Chaotic Desk -->
+                <section id="section-chaos" class="presentation-section active" aria-labelledby="chaos-heading">
+                    <div class="section-content">
+                        <h2 id="chaos-heading" class="section-title">The Current Reality</h2>
+                        <p class="section-description">
+                            Our valets are like firefighters, but they're being sent to fight a forest fire without a map or a radio. 
+                            The result is chaos that directly impacts service, morale, and the bottom line.
+                        </p>
+                        <div class="chaos-papers-container">
+                            <!-- Dynamic paper elements will be inserted here -->
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Section 2: Valet Layer -->
+                <section id="section-valet" class="presentation-section" aria-labelledby="valet-heading">
+                    <div class="section-content">
+                        <h2 id="valet-heading" class="section-title">The Firefighter Solution</h2>
+                        <p class="section-description">
+                            By equipping our frontline valets with standardized procedures and simple decision-making tools, 
+                            we empower them to turn chaos into order, one task at a time.
+                        </p>
+                        <div class="valet-solutions-container">
+                            <!-- Dynamic solution elements will be inserted here -->
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Section 3: Manager Layer -->
+                <section id="section-manager" class="presentation-section" aria-labelledby="manager-heading">
+                    <div class="section-content">
+                        <h2 id="manager-heading" class="section-title">The Watchtower Perspective</h2>
+                        <p class="section-description">
+                            Managers, from their vantage point, use these systems to direct the team, enforce standards, 
+                            and ensure every valet is operating from the same playbook.
+                        </p>
+                        <div class="manager-binder-container">
+                            <div id="operations-binder" class="operations-binder">
+                                <div class="binder-cover">
+                                    <h3>Site Operations Bible</h3>
+                                    <p>Click to open</p>
+                                </div>
+                                <div class="binder-content">
+                                    <div class="binder-tabs">
+                                        <button class="binder-tab active" data-tab="training">Training</button>
+                                        <button class="binder-tab" data-tab="processes">Processes</button>
+                                        <button class="binder-tab" data-tab="accountability">Accountability</button>
+                                    </div>
+                                    <div class="binder-pages">
+                                        <!-- Dynamic content will be inserted here -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Section 4: Executive Layer -->
+                <section id="section-executive" class="presentation-section" aria-labelledby="executive-heading">
+                    <div class="section-content">
+                        <h2 id="executive-heading" class="section-title">The Strategic Altitude</h2>
+                        <p class="section-description">
+                            From a strategic altitude, the executive team can see the entire picture. This system provides 
+                            the data to not just spot fires, but to predict and prevent them.
+                        </p>
+                        <div class="executive-dashboard-container">
+                            <div id="executive-dashboard" class="executive-dashboard">
+                                <div class="dashboard-header">
+                                    <h3>ACE Operations Dashboard</h3>
+                                    <div class="dashboard-status">
+                                        <span class="status-indicator live"></span>
+                                        <span>Live Data</span>
+                                    </div>
+                                </div>
+                                <div class="dashboard-kpis">
+                                    <!-- Dynamic KPI cards will be inserted here -->
+                                </div>
+                                <div class="dashboard-roi-simulator">
+                                    <h4>ROI Simulator</h4>
+                                    <div class="roi-controls">
+                                        <label for="training-investment">Training Investment: $<span id="training-value">50000</span></label>
+                                        <input type="range" id="training-investment" min="10000" max="100000" value="50000" step="5000">
+                                    </div>
+                                    <div class="roi-results">
+                                        <div class="roi-chart">
+                                            <!-- Simple chart visualization -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Section 5: Closing & CTA -->
+                <section id="section-closing" class="presentation-section" aria-labelledby="closing-heading">
+                    <div class="section-content">
+                        <h2 id="closing-heading" class="section-title">The Transformation</h2>
+                        <p class="section-description">
+                            With clear systems, empowered staff, and data-driven oversight, ACE can transform its operations. 
+                            Let's prove it, starting with a pilot at the Marriott Marquis.
+                        </p>
+                        <div class="closing-cta-container">
+                            <div class="organized-desk">
+                                <h3>From Chaos to Control</h3>
+                                <div class="transformation-summary">
+                                    <div class="before-after">
+                                        <div class="before">
+                                            <h4>Before</h4>
+                                            <ul>
+                                                <li>Reactive firefighting</li>
+                                                <li>$3,000+ monthly gap bonuses</li>
+                                                <li>$7,500 damage claims</li>
+                                                <li>Inconsistent service</li>
+                                            </ul>
+                                        </div>
+                                        <div class="after">
+                                            <h4>After</h4>
+                                            <ul>
+                                                <li>Proactive systems</li>
+                                                <li>Reduced turnover costs</li>
+                                                <li>$7+ daily revenue increase</li>
+                                                <li>Consistent excellence</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cta-buttons">
+                                <button id="launch-pilot-btn" class="cta-primary">
+                                    Launch Marriott Marquis Pilot
+                                </button>
+                                <button id="export-pdf-btn" class="cta-secondary">
+                                    Export ROI Summary
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <!-- Modal System -->
+        <div id="modal-overlay" class="modal-overlay" aria-hidden="true">
+            <div class="modal-content" role="dialog" aria-modal="true">
+                <div class="modal-header">
+                    <h3 id="modal-title">Problem Details</h3>
+                    <button id="modal-close" class="modal-close" aria-label="Close modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div id="modal-problem" class="modal-section">
+                        <h4>Current Problem</h4>
+                        <p id="modal-problem-text"></p>
+                        <div id="modal-impact" class="modal-impact">
+                            <h5>Impact</h5>
+                            <p id="modal-impact-text"></p>
+                        </div>
+                    </div>
+                    <div id="modal-solution" class="modal-section">
+                        <h4>Proposed Solution</h4>
+                        <p id="modal-solution-text"></p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button id="modal-implement" class="modal-btn-primary">Implement Solution</button>
+                    <button id="modal-cancel" class="modal-btn-secondary">Cancel</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- "The ACE Way" Overlay -->
+        <div id="ace-way-overlay" class="ace-way-overlay" aria-hidden="true">
+            <div class="ace-way-content">
+                <h3>The ACE Way</h3>
+                <div class="ace-way-values">
+                    <div class="ace-value">
+                        <h4>VISION</h4>
+                        <p>Situational awareness, career path</p>
+                    </div>
+                    <div class="ace-value">
+                        <h4>VALUES</h4>
+                        <p>Employees are valued</p>
+                    </div>
+                    <div class="ace-value">
+                        <h4>TEAM</h4>
+                        <p>Collaboration is essential</p>
+                    </div>
+                </div>
+                <button id="ace-way-close" class="ace-way-close">Close</button>
+            </div>
+        </div>
+
+        <!-- Feedback Form -->
+        <div id="feedback-form" class="feedback-form" aria-hidden="true">
+            <div class="feedback-content">
+                <h3>Provide Feedback</h3>
+                <form id="feedback-form-element">
+                    <div class="form-group">
+                        <label for="feedback-name">Name (optional)</label>
+                        <input type="text" id="feedback-name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="feedback-role">Role</label>
+                        <select id="feedback-role" name="role">
+                            <option value="">Select your role</option>
+                            <option value="executive">Executive</option>
+                            <option value="manager">Manager</option>
+                            <option value="valet">Valet</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="feedback-comments">Comments</label>
+                        <textarea id="feedback-comments" name="comments" rows="4"></textarea>
+                    </div>
+                    <div class="form-buttons">
+                        <button type="submit" class="btn-primary">Submit Feedback</button>
+                        <button type="button" id="feedback-cancel" class="btn-secondary">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/data-manager.js"></script>
+    <script src="js/three-scene.js"></script>
+    <script src="js/ui-controller.js"></script>
+    <script src="js/animation-controller.js"></script>
+    <script src="js/modal-system.js"></script>
+    <script src="js/presentation-controller.js"></script>
+    <script src="js/demo-mode.js"></script>
+    <script src="js/pdf-export.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

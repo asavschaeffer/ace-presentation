@@ -1,0 +1,839 @@
+ACE Valet Operations Improvement Proposal
+“Profitability comes from loyalty, productivity, and having a character base from which to work.” –
+Zig Zigler
+
+1. Executive Summary
+●	Problem: Current ACE Parking valet operations face significant systemic challenges. Opportunities exist for enhanced training standardization, procedural consistency, data tracking capabilities, and accountability frameworks. These factors currently impact operational efficiency, contribute to costs (including damages, turnover, and staffing gap bonuses exceeding $3000/month), affect service consistency, and influence employee morale.
+●	Proposed Solution: This proposal outlines a comprehensive, phased initiative to implement structured systems, standardized processes, and robust training, supported by a dedicated software solution. Key phases include: 1) Foundational Systems & Data Capture, 2) Structured Training & Process Standardization, and 3) Performance Management & Culture Enhancement. A pilot program at the Marriott Marquis is recommended to validate the approach.
+●	Expected ROI & Benefits: This strategic investment is anticipated to yield significant returns through measurable cost reductions and revenue enhancements, projected to far outweigh implementation costs. Key financial benefits include reduced expenses from lower turnover (avoiding substantial recruitment/training costs and incidents like a cited $7,000 damage claim from a new hire 2/14/25 and a recent $7500 damage to a handicap vehicle 4/25), fewer damage claims, and minimized overtime/bonus payouts. Revenue will be enhanced through improved capture (e.g., accurate hourly billing potentially capturing $7+/ white ticket daily) and reduced losses from service credits. Beyond finances, benefits include improved operational efficiency, consistent service delivery enhancing client satisfaction and contract security, and higher employee morale leading to increased retention.
+●	Call to Action: This proposal seeks collaboration with ACE leadership to launch this improvement initiative, beginning with the recommended pilot program. Leveraging nearly four years of frontline experience and a background in systems development and training, I am prepared to partner in leading this effort to achieve measurable, positive results for ACE Parking’s valet division.
+2. Introduction
+Author’s Motivation & Perspective
+This proposal stems from nearly four years of frontline experience as an ACE Valet (since July 2021), primarily stationed at the Marriott Marquis San Diego Marina. While enjoying the core valet work, I have observed significant opportunities to address systemic issues currently contributing to reactive workflows and operational inconsistencies, such as a lack of clear instructions leading to confusion about ramp rules or parking procedures, rates, and billing for different situations. I aim to be a ‘change agent’, leveraging a unique perspective. As someone not part of the corporate management structure – the lowest cog – I can offer an unvarnished, objective viewpoint, free from personal advancement motives within ACE. This perceived naivete is presented as an asset, allowing observation of issues potentially overlooked internally, acting as an ‘Honest Broker’.
+
+Relevant background includes 7 years as a classroom teacher, approximately 4 years as a substitute teacher (interacting with thousands of students of diverse backgrounds and abilities annually), and 19 years running a successful tutoring business. This experience involved creating systems for training, teaching multiple subjects, retention (addressing near 100% annual turnover among tutors), and quality control with independent contractors, working with diverse student needs, and focusing on systemic improvements for long-term success.
+
+
+3. The Current State: Challenges & Opportunities
+The operational aspects described below are often interconnected, presenting opportunities where systemic enhancements in one area can positively influence others. Current workflows sometimes tend towards reactivity rather than proactive planning.
+
+Lack of Standardized Training & Development
+There is a significant opportunity to develop the current training structure into a comprehensive, standardized program. Initial onboarding is limited. Beyond a cursory video I have experienced only one limited training session in almost 4 years of employment. Any additional ‘training’ focused on compliance rather than in-depth practical skills and lacks standard intake assessments or pre-work aligned with “The ACE Way.”
+
+Furthermore, on-site training consistency could be improved. New hires are often paired with available valets (“whoever is working”), which may not ensure consistent knowledge transfer or adherence to best practices. For instance, I personally have been asked impromptu to help ‘train’ a new hire on the ramp during the last hour of a shift – an unsuitable approach for a complex site. Many times new valets are paired with any available valet, not necessarily the best performing ones. Developing standard materials and site-specific training protocols presents a clear opportunity.
+
+Finally, a formal system for continuous training, skill refinement, or remediation is currently absent. Introducing specialized skills training, such as manual transmission operation (which some current managers reportedly cannot operate, causing delays and inconsistent service delivery), could enhance capabilities and employee value. This addresses a need for greater investment in staff development. These factors collectively present opportunities to improve service consistency, procedural adherence, safety practices, operational efficiency, and overall employee/guest satisfaction through structured training. In turn it would create a ready pipeline of highly skilled workers from which to select for internal advancement.
+
+Deficient Systems & Processes
+A lack of clearly defined, consistently applied procedures presents an opportunity to establish and embed “The ACE Way” across operations, ensuring predictability and quality. Current processes, particularly during peak periods, can be streamlined.
+●	Key Handling: Current practices (e.g., reliance on unreliable sticky notes for room numbers to assure proper assignment of charges, disorganized key baskets, lack of full use of call down sheet and key assignment) offer opportunities for standardization to reduce risk, improve efficiency, and ensure a clear chain of custody.
+●	White Ticket (Hourly) Process: Optimizing the time-stamping procedure by stamping upon guest arrival, not upon parking, offers a direct opportunity to improve revenue accuracy, with a potential variance cited at $7+ per ticket daily.
+●	Ramp Management: Developing clear, consistent procedures can alleviate congestion (avoiding situations where phones are taken off the hook due to inability to keep up), enhance guest experience, improve safety, and ensure uniform application of rules regarding taxis or double-parking standards.
+●	Parking: Implementing systematic parking strategies (e.g., how, and where to position vehicles, oversized vehicles, organizing by size/location, clear use of overflow areas like PD or Marina Terrace at the Marriott Marquis) holds potential for greater efficiency and reduced risk compared to current, less organized/structured methods.
+
+Implementing standardized tools like daily pass-down sheets, call-down logs, and potentially uniform valet tickets (addressing current color/formatting differences between nearby sites like Hyatt and Marquis) can enhance communication and operational consistency across sites within the San Diego area first and ultimately companywide. 
+
+Ensuring consistent availability of basic equipment (clickers, appropriate non-Sharpie pens, key rings, stamp for oversized vehicles) supports professionalism and avoids situations where valets lack necessary tools for work.
+
+Establishing formal channels for communicating operational changes (avoiding undocumented rule changes), documenting site procedures, and fostering transparent dialogue can reduce confusion and build trust.
+
+Create location sheets for each site with clear instructions for both valets placed at the site and for off-site valets clearly explaining site instructions, fees, expectations, directions, typical questions/problems so there is no confusion. Utilize Binary Decision Tree so each decision is preplanned and executed effectively. Teaching the Binary Decision Tree to all new and existing employees.
+
+
+Insufficient Data & Tracking
+Significant opportunities exist to implement systematic tracking for key metrics currently not captured consistently. This includes white ticket volume/timing, key custody details for incident investigation (like the ‘Blue Audi’ example at my site), damage claim specifics, individual performance indicators, attendance patterns, complaint trends, and reasons for service credits.
+
+The current lack of comprehensive data limits objective performance measurement, hinders informed staffing decisions (contributing to reliance on bonuses), makes identifying systemic issues (like problem parking spots identified via damage tracking) difficult, and prevents accurate assessment of efficiency or revenue opportunities. Establishing robust data collection is fundamental to unlocking performance improvements.
+
+Inadequate Accountability & Performance Management
+Implementing clear standards and consistent consequences for attendance and performance issues, such as lateness or no-shows which currently often go unaddressed, can foster a more accountable environment. Establishing regular, standardized performance reviews using objective data and structured feedback offers a valuable tool for employee development and recognition. I have received only one evaluation in nearly four years.
+
+
+Revisiting and improving reward systems (e.g., the potentially unclear $50 damage claim denial bonus, or the TripAdvisor program scaled back at our site to save $1800/year, instead of publicizing it to increase operational performance) with clear communication and consistent application can significantly enhance motivation. Addressing inconsistencies in past programs, like TripAdvisor bonus changes, is important. Exploring performance-based incentives for valets potentially aligned with manager compensation structures, could further motivate desired behaviors, supported by research (Appendix C). Addressing past communication issues regarding pay adjustments, such as an unfulfilled promise, is key to rebuilding trust.
+Ensuring standards are applied consistently across roles (e.g., addressing observations of differing standards for double parking or holiday work expectations between managers and valets) can improve morale and perceptions of fairness. Utilizing seniority and performance data for shift assignments and training opportunities offers a more objective approach.
+
+Organizational Culture Concerns
+There’s an opportunity to transform the valet culture into a more collaborative, supportive, and high-performance environment, inspired by examples like Netflix and Zappos (Appendix I) through shared values, clear goals, and effective teamwork. Designing policies around enabling top performers can elevate standards. Aligning management practices, communication strategies (avoiding posting sensitive information where guests might see it (Appendix E/Photo), and recognition programs more closely with frontline needs can foster greater trust. Addressing employee sentiment, sometimes expressed as “They don’t care about me,” requires tangible changes.
+
+While market dynamics exist where guests may feel like a captive market, focusing internally on optimizing service quality and efficiency ensures ACE remains competitive and strengthens client relationships. Reducing service failures minimizes the need for concessions, such as comped $65/night, recently increased to $75/night, parking.
+
+Clearly defining and consistently reinforcing positive company values – a new “The ACE Way” – can provide a unifying framework and foster a stronger sense of shared purpose. For example acknowledging high performance, such as the numerous positive reviews I cited receiving with little internal recognition, is part of building this culture. We have no internal mechanism for our site, withing the San Diego area, and/or companywide which is troubling.
+
+4. Proposed Solution: A Phased Implementation Plan
+This plan organizes proposed solutions into logical phases, allowing for gradual implementation, learning, and adaptation, fostering buy-in along the way.
+
+Overarching Principles
+●	Performance Framework: Policy, Procedure, Process = Performance. Followed by a cycle of Review, Revise, Repeat.
+●	TEAMS Framework: Implement solutions through the lens of Tracking, Execution, Accountability, Measurable outcomes, and Support
+●	Define “The ACE Way”: Establish clear company values, proposed as VISION (Situational awareness, career path), VALUES (Employees are valued), TEAM (Collaboration is essential). (See Appendix F). 
+●	Training Philosophy: Aim for training that is Systematic, Consistent, Rigorous, Replicable, Adaptable, Vibrant, Effective, and Measurable, aligning with organizational goals and career development.
+●	Design Focus: Design policies and systems around enabling top performers, fostering a culture where excellence is the standard.
+
+ 
+Phase 1: Foundational Systems & Data Capture (Est. 3-6 Months)
+Goal: Establish baseline operational data, improve daily communication and accountability, achieve early efficiencies, and create the foundation for future improvements.
+Actions:
+●	Implement Standardized Daily Pass-Down Sheets: Create and mandate use at each site. Content should include date, staffing, events, special rates, key counts, check-ins/outs, operational notes (parking restrictions, hazards like specific pillar locations, equipment issues), and space for valet observations (e.g., suggesting parking layout improvements like angled C-slant spots). Purpose: Improve communication, provide instructions, create records, capture feedback. (See Appendix B).
+●	Implement Revised Call-Down Logs & Key Tracking: Design a new log (paper initially). Record pulls (walk-up/call-down), ticket #, room #/guest name accurately (replacing sticky notes) and establish key chain-of-custody (who pulls/parks). Purpose: Reduce key loss (pinpoint last handler), improve billing, track workload. (See Appendix B).
+●	Optimize “White Ticket” (Hourly) Process: Mandate the procedure: Write/stamp time immediately upon guest arrival. Purpose: Maximize revenue capture.
+●	Develop & Implement Site Audit Checklists/Templates: Create templates for managers to document site specifics: layout (e.g., MM: C Slant, D Flat, PD, Waterfall, Marina Terrace), procedures, hazards, equipment, client rules (e.g., MM: no beanies). Purpose: Standardize site knowledge, provide a basis for training. (Potential role for Site Auditor/Author). What is the max number of parking spots under ideal circumstances? This equals rough maximum revenue estimate.
+●	Initiate Basic Data Collection & Software Implementation: Establish procedures for collecting data. Develop and deploy an Event-Based Data Tracking and Analysis Software solution integrated with Deep Blue or as stand-alone (detailed in Appendix G) to capture, aggregate, and analyze data, transitioning from manual inputs. Purpose: Establish metrics, identify patterns, enable data-driven insights.
+●	Standardize Tickets & Equipment: Review and standardize tickets across sites where feasible. Ensure necessary equipment (e.g., clickers with a $50 deposit system, name tags, proper pens, key rings) is consistently available.
+
+
+Phase 2: Structured Training & Process Standardization (Est. 6-12 Months)
+Goal: Build core competencies, ensure consistent service delivery, define, and implement standard operating procedures based on best practices and Phase 1 data.
+Actions:
+●	Develop & Deliver Formal Initial Training Program: Create a 2–4-hour mandatory group in person session/class. Curriculum: “The ACE Way,” core procedures (damage checks, ticket completion), customer service scripts (e.g., “My pleasure” not “No problem,” “May I assist with your luggage?” not “Need a cart?”), policy, safety. Use interactive methods like role-playing common scenarios (lost tickets, damage reports). Include assessments (e.g., 80% pass rate). Consider using Marriott Marquis as a central training site. (See Appendix A).
+●	Develop & Deliver Site-Specific Training: Use Site Audit templates from Phase 1. Delivered by trained managers or designated “Training Valets.” Covers layout, procedures, specific hazards (e.g., particular pillars, tight spots, charges ‘typical’ issues and utilizing Binary Decision Tree- Each decision will be determined by a binary action and all valets trained in this method).
+●	Document & Implement Standard Operating Procedures (SOPs): Collaboratively develop clear SOPs for key tasks: ramp management (e.g., filling lane 2 first, handling Ubers/deliveries), damage checks, lost ticket procedure, parking methods (e.g., organizing by size, parking next to cars and not leaving open spots, parking compacts under vets on C and D levels/small SUVs opposite side, using C slant effectively). Leverage Phase 1 data to inform new/revised SOPs.
+●	Introduce Binary Decision Trees (BDTs): Create simple, visual BDTs for common scenarios (e.g., valet or self-parking?, assistance with luggage or not?, guest reports damage, ramp is full, oversized vehicle arrival – check policy sheet for rates/permissions before calling manager, manager not on duty, etc.). Purpose: Guide consistent decision-making at the frontline, especially at times when manager is not on site.
+●	Specialized Skills Training: Introduce optional training modules, such as manual transmissions (potentially as a reward/incentive). Consider professional driver/parking training later.
+●	Establish Mentor Program: Formalize pairing new hires with experienced, designated “Mentor Valets” for structured guidance and support during initial weeks.
+
+Phase 3: Performance Management & Culture Enhancement (Ongoing from Month 12+)
+Goal: Drive individual and team accountability, improve employee retention and satisfaction, foster career growth, and cultivate a positive, high-performance culture.
+Actions:
+●	Implement Performance Tracking & Reporting: Systematically track performance using the software implemented in Phase 1 (attendance, timeliness, procedure adherence, incidents, feedback, efficiency metrics). Make data accessible for reviews.
+●	Establish Formal Review Process: Implement regular, structured performance reviews (e.g., 90-day, 6-month, annual) using objective data and incorporating qualitative feedback. Focus on development and goal setting. Utilize initial intake information to review progress toward goals both within Ace and identify skills that have been acquired while at ACE demonstrating value to employee of continued employment.
+●	Develop & Implement Rewards & Recognition Programs: Create clear, consistent, and motivating programs: Employee of the Month/Year (potentially with negotiated hotel stay prizes), non-monetary perks (e.g., drawing yearly for a Porsche Experience for perfect attendance or highest performers), tangible rewards ($50 shoe reimbursement at 1 year), reinstate/clarify performance bonuses (e.g., $50 damage claim denial bonus), explore performance pay or stipends (e.g., $.25-.50/hr. skill differential for stick shift proficiency, bilingual, training roles).
+●	Refine Hiring/Placement Process: Use intake data and performance tracking to improve hiring decisions and site placement. Implement tiered site assignments (e.g., start at simpler sites like condos, earn progression to premier properties like Marriott Marquis or US Grant based on demonstrated performance and skills.)
+●	Focus on Remediation & Support: Use performance data to identify employees needing support. Offer targeted retraining or temporary reassignment (e.g., move an underperformer to a lower-tier site for skill reinforcement) before resorting to termination. Document performance issues clearly and focus on correction over punishment. Cost savings over termination and assigning a new hire.  
+●	Culture Building Initiatives: Actively promote “ACE Way” values through communication and actions. Use roundtables, surveys, or suggestion boxes for feedback and demonstrate action based on input. Align management practices and communication with desired culture. Foster teamwork, potentially through team-based incentives or recognition.
+
+Pilot Program Recommendation
+It is strongly recommended to pilot the Phase 1 components (Daily Sheets, Key Tracking, White Ticket Process, Site Audit Template, Data Tracking Software) and potentially early Phase 2 elements (Initial Training Module draft, basic SOPs) at the Marriott Marquis. This pilot will test feasibility, gather real-world data, allow refinement of systems, training, and software based on feedback, and demonstrate value and ROI to build support for wider rollout.
+
+5. Expected Outcomes & Quantifiable Benefits
+The proposed solutions are designed to directly address the identified challenges, leading to measurable improvements and tangible benefits across the valet division. While precise quantification requires the data collection proposed in Phase 1, the potential impact is significant.
+
+Cost Reduction
+Improvements in training, clear expectations, feeling valued, and potential for advancement are expected to increase employee retention, significantly lowering turnover costs associated with recruitment, hiring, onboarding, and lost productivity (industry estimates range from 33% to 2x annual salary). Retaining experienced staff also avoids costly mistakes, such as the cited $7,000damage caused by a new hire and $7500 caused by a poorly trained valet without a binary decision tree in place. 
+
+Better training, standardized procedures, thorough damage checks (potentially incentivized by the $50 bonus example), and clear accountability will reduce damage claims and associated costs, with data tracking helping identify root causes (like problem parking spots). Data-driven staffing decisions will minimize overtime and bonus payouts (like the cited >$3000/month example for staffing gaps), further supported by improved attendance. Finally, reduced operational errors, such as fewer lost keys (due to better tracking) or less guest misinformation (thanks to standardized scripts), decrease the need for management intervention, service credits, and complimentary services.
+
+
+
+
+
+
+Revenue Enhancement
+Accurate time stamping for hourly (“White Ticket”) parking, tracked via the proposed system adjustment, is expected to increase revenue capture significantly (estimated potential of $7+/ticket/day at Marriott Marquis alone). Data will allow precise measurement and optimization. Fewer service errors and improved overall service quality will lead to reduced revenue loss from fewer requests for comped or credited parking (e.g., $75/night charges). The data gathered may also reveal opportunities for potential new revenue streams, such as implementing dynamic pricing or introducing specific fees (e.g., for oversized vehicles using premium spaces like Marina Terrace). Perhaps most importantly, delivering consistent, high-quality service strengthens client satisfaction, addressing potential hotel concerns before contract renewals and thereby securing existing major revenue streams.
+
+Operational Efficiency
+Standardized procedures (revised SOPs, BDTs) will create streamlined workflows, making operations smoother, faster, and less error-prone, particularly during peak times, thus reducing issues like ramp backups and increased car delivery times. The data captured by the software allows for improved staffing decisions, preventing costly under- or overstaffing. Better training, clear procedures (including organized parking methods), and improved organization lead to faster, safer vehicle handling. This overall efficiency results in effective resource allocation, freeing staff and managers from addressing preventable issues to focus on value-added tasks. An effective internal pool of cross-trained valets can also provide better fill-in service compared to potentially unfamiliar off-site staff.
+
+Improved Service & Client Relations
+A clearly defined “ACE Way,” combined with consistent training and standardized procedures, ensures consistent, professional service delivery across all interactions. Fewer errors and better communication protocols will lead to reduced guest complaints and improved guest experiences, avoiding frustrations like unanswered phones or excessive wait times. This enhanced professionalism boosts ACE’s brand reputation, turning positive experiences (like the author’s cited reviews) into the standard expectation. Ultimately, consistently meeting and exceeding guest expectations leads to stronger client satisfaction and retention of valuable contracts and sales of new contracts.
+
+Enhanced Employee Experience
+Employees gain competence and confidence through better training, operate with clear expectations under fair systems, and feel valued through recognition programs (like Employee of the Month) and supportive management, leading to higher job satisfaction and morale. Clear procedures and smoother operations reduce stress and frustration associated with operational friction. Opportunities to learn new skills (like stick shift operation or becoming a mentor) provide tangible skill development, making ACE employment more valuable. Defined processes and performance metrics can illuminate career advancement pathways (e.g., a valet -> shift lead -> site manager pipeline). Transparent systems and objective tracking foster a sense of fairness and belonging, further enhanced by initiatives promoting teamwork. This positive internal environment not only retains top performers but also attracts better talent, creating a virtuous cycle of improvement.
+
+6. Implementation Plan & Author’s Role
+Collaborative Approach
+Success requires buy-in and active participation from leadership, site managers, HR, and potentially other departments. This proposal envisions a collaborative effort, leveraging the collective experience within ACE, particularly site managers, to refine and implement solutions (e.g., co-developing revised SOPs and site-specific training materials). Regular communication and feedback loops, such as roundtables with experienced employees, will be crucial for success and adapting the plan as needed.
+
+Phased Rollout & Pilot Program
+The recommendation is to start with the Phase 1 foundational systems, ideally piloted at the Marriott Marquis site. This allows for testing, data gathering, refinement, and demonstrating ROI before wider, potentially company-wide, implementation. It is recognized that realizing the full benefits, especially from aggregated data analysis, will take time, likely spanning several months to over a year.
+
+
+Addressing Potential Implementation Challenges
+Implementing change of this scale involves potential challenges. These may include initial productivity adjustments as staff adapt to new processes, resource allocation for training time and materials, ensuring consistent adoption across diverse sites, and managing potential resistance to new workflows.
+
+The proposed phased implementation and pilot program are designed to mitigate these risks. Starting with foundational systems allows gradual adaptation. The pilot at Marriott Marquis serves as a crucial risk mitigation tool, allowing testing and refinement on a controlled scale, identifying potential issues, and demonstrating value before significant investment. The emphasis on collaboration—engaging managers and valets in developing new SOPs and gathering feedback—is key to fostering ownership and reducing resistance. Clear communication about goals and benefits is essential. Furthermore, collecting baseline data in Phase 1 via the proposed software/paper forms provides objective evidence to measure progress and justify continued investment, addressing potential cost concerns. Acknowledging these potential challenges upfront allows for proactive planning and demonstrates a realistic approach.
+
+Author’s Proposed Role
+I proposes taking a lead role in developing, implementing, and refining this initiative, potentially under a title like “Director of Valet Training.” Key responsibilities would include:
+●	Creating detailed training curriculum in joint effort. (initial, site-specific, ongoing).
+●	Collaboratively designing standardized forms (Daily Sheets, Call Logs, Audit Checklists).
+●	Developing SOPs and BDTs in collaboration with managers.
+●	Conducting initial group training sessions and “train-the-trainer” sessions for site leads/mentors.
+●	Overseeing the pilot program at Marriott Marquis.
+●	Potentially contributing to the development/refinement of data tracking tools (including the software in Appendix G).
+●	Performing site audits to ensure consistency and gather feedback.
+To maintain frontline connection and credibility, the author proposes continuing to work regular valet shifts (e.g., Saturday/Sunday mornings) to stay grounded in operational realities and observe the program’s effectiveness firsthand.
+
+Qualifications for Role
+●	Frontline Credibility: Nearly four years as a high-performing valet (supported by over 100+ positive TripAdvisor reviews (Appendix D), manager feedback (Appendix H), and a perfect attendance record provides deep understanding of operational challenges and peer respect.
+●	Systems & Curriculum Expertise: An extensive background (29 years combined) in education and running a tutoring business involved creating systems, developing curriculum, training diverse individuals, implementing assessments, and managing independent contractors in high-turnover settings.
+●	Objective Perspective: Positioned as an “honest broker” focused on systemic improvement rather than internal politics and advancement.
+
+Requested Support & Resources
+Successful implementation requires:
+●	Leadership Commitment: Explicit buy-in and sustained support from ACE leadership are paramount.
+●	Collaboration & Access: Access to relevant personnel (site managers, HR, operations leaders) and internal information is needed to tailor solutions effectively. Encouraging participation from sites/managers is vital.
+●	Resources: Allocation of necessary resources for pilot program implementation (e.g., printing forms, potential software/tablet costs, dedicated time for participating staff/managers).
+●	Compensation Structure: Agreement on a fair compensation structure (details proposed separately, potentially involving specific hourly rates for valet vs. development work, per-trainee fees, contract terms, non-monetary benefits like schedule autonomy/parking pass/vacation flexibility) that reflects the commitment required (author potentially leaving teaching position) and the value delivered. Discussion points include health insurance and payment mechanisms (e.g., via an LLC).
+
+
+ 
+7. Appendices 
+(Note: Detailed content for Appendices to be developed based on further collaboration and data gathering.)
+●	A. Detailed Training Curriculum Outline (To be developed after needs assessment)
+●	B. Sample Forms (Daily Pass-Down Sheet, Call-Down Log, Site Audit Checklist, etc. (See screenshot under appendix G)
+●	C. Supporting Research (e.g., Performance Pay Studies Summary)
+●	D. Author’s Relevant Experience & Performance Examples (Compiled Reviews/Recommendations)
+●	E. Specific Site Examples & Case Studies (Detailed Marriott Marquis Challenges & Solutions. (To be provided)
+●	F. Proposed “ACE Way” Definition (Vision, Values, Team – (Expanded after collaboration with management)
+●	G. Proposed Event-Based Data Tracking and Analysis Software Design
+●	H. Letters of recommendation
+●	I. Company Culture
+
+ 
+Appendix H: Letters of Recommendation
+
+Ben McClelland 
+Site Manager Hotel Republic Bmcclelland@aceparking.com (619) 558-9205
+05/14/2025 
+To Whom It May Concern, 
+It is with great confidence that I recommend Val Schaeffer. I had the pleasure of managing Val for two years at the Marriott Marquis, where he served as a weekend valet. Despite only working weekends, Val stood out in a team of over 36 valets — consistently earning more guest name mentions than any other team member, which speaks volumes about his dedication to service and impact. 
+Val brought to our operation a strong work ethic, a calm professionalism, and a clear commitment to teamwork. He never had an attendance issue, regularly volunteered to stay late to help with events, and always put the team’s success above his own convenience. His reliability was second to none. 
+What truly sets Val apart is how he blends his experience as a substitute teacher with his work on the ramp. His ability to coach and lead new hires — not just telling them what to do, but explaining why it matters — made him an informal leader on the team. He took real ownership in helping others grow and consistently raised the standard of performance around him. 
+Val doesn’t just do his job; he elevates the environment. Whether assisting a guest or supporting a coworker, he approaches every interaction with professionalism, empathy, and purpose. Any organization would benefit from his presence, and I’m confident he’ll bring the same dedication and leadership to whatever comes next. 
+Please feel free to contact me if you’d like to discuss Val’s contributions further. Sincerely, 
+Benjamin McClelland 
+Site Manager | ACE 
+ACE Parking 
+Hotel Republic San Diego 421 West B Street
+San Diego, CA 92101 Mobile: 619.558.9205 
+ 
+May 14, 2025
+
+
+To Whom It May Concern,
+
+I am pleased to recommend Val Schaeffer who has been a consistently dependable and high-performing member of our valet team at ACE.  Val has demonstrated a strong commitment to quality, accountability, and continuous improvement—all of which make them well-suited for taking on larger-scale initiatives that aim to improve training, standardize processes, and raise overall performance.
+
+Val brings a high level of professionalism and critical thinking to every shift. He is skilled at identifying process inefficiencies and taking the initiative to improve them within their scope. Notably, despite working only two shifts per week, Val has earned more positive TripAdvisor reviews than the rest of the team combined—by a substantial margin. This not only highlights his ability to deliver exceptional guest experiences, but also reflects a consistency and focus that sets a high standard for performance. His ability to connect instantaneously with guests is a pleasure to observe. 
+
+It’s not an exaggeration to say that if the broader workforce operated with the same level of diligence and ownership that Val brings to each shift, our operation would run markedly smoother and more efficiently. They would lead by example, exhibit a strong sense of personal accountability, and contribute meaningfully to both team morale and service quality. In fact in my 13 years working for ACE I have not encountered a more proficient valet, especially when serving the hotel guests. He consistently provides exceptional service and sets an exemplary example on how to interact and perform his duties.
+
+While I am not directly familiar with any proposal Val may be working on outside of our immediate scope, I can say with confidence that he possesses the core competencies, work ethic, and strategic mindset required to lead successful projects focused on improving systems and outcomes. I fully support their pursuit of new challenges and am happy to endorse their character and capabilities.
+
+Please feel free to reach out to me with any questions.
+
+Sincerely,
+
+ 
+Austin King 
+Assistant Manager  ACE Parking
+Manchester Grand Hyatt, San Diego CA
+858-527-5933
+Aking@aceparking.com
+
+
+
+
+Appendix G: Proposed Event-Based Data Tracking and Analysis Software Design
+G.1. Overview
+This section outlines the design for a software solution intended to capture, aggregate, analyze, and report event-based operational data within ACE Parking’s valet division. Its primary purpose is to support Phase 1 (“Foundational Systems & Data Capture”) of the ACE Valet Operations Improvement Proposal. By systematically tracking key operational events, this software directly addresses the critical challenge of “Insufficient Data & Tracking.” It aims to replace manual tracking limitations and guesswork with objective data, enabling informed decision-making, establishing baseline metrics, supporting the pilot program, and enhancing the overall credibility and measurability of the proposed improvement initiative.
+
+G.2. Software Features
+The software will track predefined operational “events” – relevant, trackable actions within the valet workflow. Initial events include car arrival/departure/parking/retrieval times, employee clock-in/out, damage reports, white ticket issuance/closure, attendance issues, guest complaints, comps/credits, and key custody transfers. 
+
+Initially data can be collected via paper forms and inputted to system. Data capture will be possible via simple interfaces on mobile devices (tablets/smartphones) and desktops. Crucially, it will include a module for efficient manual data entry or potential scanned data capture (OCR) from the standardized paper forms introduced in Phase 1 (Daily Pass-Down Sheets, Call-Down Logs), allowing a gradual transition. Key fields like Timestamp, Valet ID, Site ID, Event Type, Ticket Number, Location, Guest Identifiers (handled securely), Revenue Impact, and Notes will be captured.
+
+All data will reside in a secure, centralized cloud database, enabling automated aggregation into summaries (shift, daily, weekly, etc.). The system will perform automated analysis to calculate Key Performance Indicators (KPIs) such as white ticket revenue, incident rates (per valet, site, location), staffing efficiency metrics, attendance trends, complaint frequency/types, and comp/credit patterns. It will also feature tools to identify operational trends (peak times, recurring issues) and flag anomalies.
+Reporting will be customizable for different roles (daily summaries for site managers, weekly/monthly performance reports for leadership, quarterly trend analysis). Visualizations like charts and graphs will aid comprehension, and reports will be exportable (PDF, Excel). The User Interface (UI) will be role-based, intuitive, and prioritize ease of use, especially for frontline staff logging events quickly. Security will be managed through Role-Based Access Control (RBAC), data encryption, secure authentication, and adherence to privacy regulations (GDPR, CCPA) and ACE policies.
+
+G.3. Data Flow and Analysis Process
+The process begins with operational events being logged in real-time via devices or recorded on Phase 1 paper forms. Real-time entries flow directly to the central database; paper form data is entered manually or scanned periodically (e.g., daily). The cloud database consolidates data from all participating sites (starting with the pilot). The system then automatically processes raw logs, calculates KPIs, aggregates data, identifies trends, and flags anomalies. Finally, managers and leadership access this analyzed information through dashboards and exportable reports to guide strategic and tactical decisions, enabling data-driven improvements like adjusting staffing, targeting retraining, refining billing, and measuring the impact of changes.
+
+
+
+G.4. Integration with ACE Valet Operations
+This software is the core technological enabler for Phase 1, providing the mechanism to capture data from new standardized processes and directly addressing the data scarcity issue. It is crucial for the Marriott Marquis pilot, allowing real-time data collection to test new procedures and provide immediate feedback. The data captured provides the objective foundation needed for Phases 2 (identifying training needs, informing SOPs) and 3 (providing metrics for performance reviews, tracking reward program impact). It directly targets specific challenges like key handling inefficiency (via chain-of-custody tracking), white ticket revenue leakage (via accurate time tracking), and staffing guesswork (via demand data).
+
+G.5. Implementation Considerations
+A cloud-based Software-as-a-Service (SaaS) model is recommended for deployment ease and cost-effectiveness. Rollout will begin with the Marriott Marquis pilot, followed by a phased approach for other sites based on success. Sites will need internet-connected devices (tablets preferred for frontline). Role-specific user training will be required, focusing on simplicity for event logging. Development should prioritize core Phase 1 functionality to demonstrate value quickly, potentially leveraging off-the-shelf components. The ability to integrate paper forms initially lowers the tech barrier. Future integration with existing ACE systems (HR, scheduling like When 2 Work, accounting) should be considered.
+
+G.6. Expected Benefits
+Implementing this software enables data-driven management, shifting decisions from anecdote to objective analysis. It increases operational visibility into site performance. It helps identify cost savings by pinpointing inefficiencies or high incident rates. It highlights revenue opportunities by tracking capture and leakage. It supports accountability with objective data for performance management. It significantly enhances the proposal's credibility by providing a concrete plan for data collection and analysis. Finally, it creates a platform for continuous improvement through ongoing monitoring and refinement of operations.
+
+
+Below is a screenshot of the application that has been developed as an example of what can be created. This is without any access to Deep Blue or any other internal ACE data.
+
+ 
+
+
+
+
+ 
+Appendix C: Supporting Research
+1. Increased Productivity and Profitability
+•	Study: Lazear (2000) - Performance Pay and Productivity
+o	Findings:
+	Transitioning from hourly wages to performance pay (piece rates) at a windshield installation company increased productivity by approximately 44%.
+	About half of this increase was due to workers' heightened effort, while the other half came from the company attracting more capable workers.
+	The shift to performance pay also increased company profitability.
+2. Better Alignment of Employee Goals with Company Objectives
+•	Study: Gerhart and Milkovich (1990) - Organizational Differences in Managerial Compensation and Financial Performance
+o	Findings:
+	Companies with performance-based pay for managers experienced stronger financial performance.
+	Performance pay aligns employees' financial incentives with organizational objectives, fostering a shared commitment to profitability.
+3. Enhanced Employee Motivation
+•	Theory: Expectancy Theory of Motivation (Vroom, 1964)
+o	Performance pay increases motivation as employees perceive a direct link between their effort, performance, and financial reward.
+•	Supporting Study: Banker et al. (2000) - An Empirical Investigation of an Incentive Plan that Includes Nonfinancial Performance Measures
+o	Findings:
+	Introduction of incentive plans led to improved financial outcomes, including higher profits and sales, by motivating employees to exceed targets.
+4. Industry-Specific Evidence
+•	Study: Bloom and Van Reenen (2011) - Human Resource Management and Productivity
+o	Findings:
+	In manufacturing and service industries, firms using structured performance pay systems reported higher productivity and profitability.
+	This effect was particularly significant in competitive industries where performance pay encouraged innovation and efficiency.
+
+5. Long-Term Financial Gains
+•	Study: Artz, Goodall, and Oswald (2017) - Performance Pay and Worker Well-being
+o	Findings:
+	Companies implementing performance pay schemes observed not only immediate productivity boosts but also long-term profitability improvements due to increased employee retention and satisfaction.
+6. Evidence from Public Sector and Nonprofits
+•	Study: Perry, Engbers, and Jun (2009) - Back to the Future? Performance-Related Pay, Empirical Research, and the Perils of Persistence
+o	Findings:
+	Even in the public sector, performance-related pay was associated with improved outcomes, suggesting that financial incentives can drive performance across different organizational contexts.
+7. Meta-Analyses
+•	Study: Jenkins et al. (1998) - Are Financial Incentives Related to Performance? A Meta-Analytic Review of Empirical Research
+o	Findings:
+	Meta-analysis of various studies found a significant positive correlation between financial incentives and work performance.
+	Higher performance translates into better organizational outcomes, including profitability.
+Caveats and Contextual Considerations
+While the evidence is strong, the effectiveness of performance pay depends on:
+•	Program Design: Clear, measurable, and achievable performance metrics are crucial.
+•	Organizational Culture: Performance pay works best in cultures that value transparency and fairness.
+•	Industry Dynamics: Highly competitive industries may see more pronounced benefits.
+•	Employee Roles: Performance pay is often more effective in roles with measurable outcomes (e.g., sales).
+
+Conclusion
+Research demonstrates that performance-based pay can enhance company profitability by motivating employees, attracting talent, and aligning individual efforts with organizational goals. However, successful implementation requires thoughtful design and alignment with the company’s broader strategy.
+Appendix I: Company Culture
+
+
+Netflix		Culture: Freedom and responsibility
+
+		No formal vacation policy- employees take time off as needed.
+		
+Encouragement of candid feedback.
+		
+High-performance culture with a focus on trust and autonomy.
+
+Benefits to the Company:
+
+• Attracting Top Talent: Freedom and responsibility appeal to high-performing individuals, ensuring a strong workforce.
+• Increased Innovation: Autonomy encourages employees to think creatively and take calculated risks.
+• Efficiency: A results-oriented culture focuses on outcomes rather than micromanaging processes.
+•  Rapid Adaptation: Employees feel empowered to respond swiftly to challenges and opportunities.
+Benefits to Employees:
+•	Flexibility: Unlimited vacation and autonomy allow for better work-life balance and reduced burnout.
+•	Professional Growth: A culture of candid feedback helps employees improve their skills and performance.
+•	Sense of Ownership: Empowerment fosters pride and accountability in their work.
+•	Competitive Edge: Exposure to a high-performance environment enhances career prospects.
+
+ 
+Zappos	Culture: Customer service and employees happiness.
+
+		Core values drive decisions, including Deliver WOW Through Service”.
+		Extensive onboarding to align employees with company values.
+
+		Fun and quirky workplace fostering a sense of community.
+		Focus on personal and professional growth.
+
+Benefits to the Company:
+•	Customer Loyalty: A culture of exceptional service builds lasting relationships with customers.
+•	Distinct Brand Identity: The quirky and fun culture differentiates Zappos in the market.
+•	Employee Retention: A focus on happiness and alignment with values reduces turnover.
+•	Strong Community: A values-driven approach creates a cohesive and committed workforce.
+Benefits to Employees:
+•	Alignment with Values: Employees feel connected to the company’s mission and purpose.
+•	Supportive Environment: Fun and quirky practices make the workplace enjoyable and reduce stress.
+•	Skill Development: Ongoing training and onboarding programs help employees grow professionally.
+•	Sense of Belonging: A strong community culture fosters deeper connections among coworkers.
+
+Summary of Impact
+For these companies, their organizational cultures foster strong employee engagement and satisfaction, directly benefiting their bottom line through increased productivity, innovation, customer satisfaction, and brand loyalty. Employees, in turn, enjoy meaningful, supportive, and growth-oriented careers, creating a virtuous cycle of mutual benefit.
+
+
+
+ 
+Appendix D: Author’s Relevant Experience & Performance Examples
+
+2023 Before TripAdvisor reward system implemented ……
+ “$60 a day for valet and the service tended to be slow”
+
+We are sorry for not meeting your expectations with our lounge and valet service 
+
+“Valet parking was pandemonium and “full” so I was directed to self park, which was also a crazy scrum that took forever only to enter an underground maze.”
+
+“First, we were not allowed to unload our luggage at the front door of the hotel if we were self parking (they were too busy)”
+
+I received 106 Reviews out of +/- 200 = > 50% of ALL reviews for the Marriot Marquis (as of 2/2025)
+
+43 for remainder of entire staff of 35+ valets and managers. I work 2 days a week. I trained my son impromptu and he had 3 reviews in less than 3 shifts as a fill in at the MM….
+
+Following are a selection of some quotes from the over 100 reviews taken from TripAdvisor. After is a collection of all the reviews with the title being a hyperlink to the actual reviews.
+
+Highlights…..
+
+“Would recommend Val any day! The Marquis is lucky to have him!”
+
+“Val the Valet is the GOAT!”
+
+“Val the Valet” is the best Valet guy in the history of Valet guys. No joke.. this man needs more than just a raise!”
+
+“Val the valet was by far the best valet experience I’ve had in the last 5 years traveling to San Diego. Courteous, knowledgeable, and fantastic at coordinating the multiple lanes at the Marriott Marquis property. Outstanding employee and one who is passionate about his job…. which is rare in this new economy. THANK YOU VAL!!”
+
+“Val in valet made our trip. Is hard to find guys like Val these days with the current worth Ethic crisis in America. Val need to be recognized for his Exceptional work Ethic and positive Attitude. He is a value able employee to The Marriott organization.”
+
+“Val is a great valet and really considerate to his guests. I enjoyed his service and excellent attitude! I appreciate him very, very much. Whatever he’s being paid he should get a raise. All hail Val.”
+
+“I had a wonderful experience with Val who is an absolutely amazing valet. Super nice, personable, and professional. Would love to have Val as my valet every time I visit the Marriott Marquis. 10/10 would recommend this facility and Val.”
+
+“Val the Valet has the greatest attitude I’ve encountered. This is my second stay here and as soon as we pulled in, I remembered him from my previous visit. He treats everyone with the upmost respect. As being the first face seen, he definitely makes your stay at this hotel feel warm and very welcomed.”
+
+“Val at the Valet was the only bright spot for my day. Saved me money and a major headache trying to get parking sorted out. Would recommend this place solely because of his help.
+Val is the BEST!!! You need 30 more of him! Awesome service, and just an awesome guy! It’s like he knew me!!! I appreciate his kindness and his level of attention. It’s little things like a Val in your experience that make trip that much more valuable!”
+
+“Val The valet guy, is awesome! Great attitude, willing to help, goes above and beyond and is a great representative of excellent high-quality service! What a great way to start my by experiencing his service!”
+
+“Val the valet crushed it! Friendly, realistic, and handled business professionally. Appreciated his attitude and patience when dealing with some of the other impatient and rude customers. He made a difference on this Memorial Day weekend.”
+
+“The Valet took forever to find our car twice! Their saving grace was Val the Valet.”
+
+“Val the Valet was extremely helpful and polite. My family and I had misunderstood the online parking pre-pay, but Val answered all of questions and resolved our issue within a mater of seconds.”
+
+“He’s a magician too lol. I hope everyone gets to meet him. I look forward to seeing him again!!”
+
+“Val the Valet is hands down the best! I was having a difficult time finding parking as it was a holiday. Val went above and beyond to help me find a space for my large vehicle/dogs, was kind and so pleasant to talk to, and genuinely cared to help solve my problem. He’s one of a kind and the reason it’s a 5 star review at this beautiful hotel in San Diego.”
+
+“We worked with SEIU at the the Marriott providing service for an event. Val the valet was superior and helped above and beyond with service. We couldn’t have had a better experience because of his service. We look forward to coming back and hope Val can help us.”
+
+“Shout out to Val the Valet, watched an interaction he had with customer who thought he didn't have valet ticket (misplaced in pocket) and started to get upset but Val had a calm, cool demeanor and told customer he'd take care of him. Val calmly asked customer to check pockets again and he found ticket, relieved and ready to get on with his day.”
+
+“I had Val the valet help me out and he was terrific. Went out of his way to be helpful and kind. If you are going to drive to the hotel but have to wait on checking in you’ll be provided with great service. And this is a busy place so I watched as he was patient with others as well.”
+
+“This is the best valet service we’ve ever experienced at the downtown Marquis Marriot in SD!”
+
+“Our experience at Marriot Marquis for the NECA Installation Dinner was wonderful! I want to put a spotlight on Val, our valet upon arrival, for starting our evening with inviting professionalism personal which set the tone for a great evening.”
+• VAL puts the VAL in VALET!
+Val puts the VAL in VALET! Saved my wife from an errant driver running into her on the way out this evening.
+Very professional and personable during our check in and helpful for food ideas.
+Give this REAL GENIUS a raise stat!
+
+
+• Excellent space w/ awesome ppl (especially Val in the valet)!
+We had an excellent trip in San Diego! Our experience began with Val, the valet guy, who had our daughter laughing right away. From Val forwards, we were greeted with open arms and enjoyed ourselves thoroughly!
+
+• Val the Valet wins!!
+Val was super helpful! He also helped us figure out something new on our car we had no idea about!! Gave the best recommendation for a perfect beach day and gave the best tips! Would recommend Val any day! The Marquis is lucky to have him!
+
+• Val the Valet
+Val the Valet is the GOAT! Even though he’s a Dodgers fan he was extremely helpful and friendly to myself and my family. Gave us directions and advice. Cracked some jokes. Thanks so much, Val! We appreciate you.
+
+• Great Customer Service Val
+Val the valet hustled and did a great job provided excellent customer service. She was friendly outgoing, and clearly worked hard while enjoying what he was doing. I appreciated his level of service.
+
+• Val the Valet
+“Val the Valet” is the best Valet guy in the history of Valet guys. No joke.. this man needs more than just a raise! I had no charge left in my Tesla when I arrived to the Marriott and I would periodically run into him and he would go down and check if there were any chargers open for me. The day I was leaving, he found out there were chargers at the convention center and road his golf cart in front of me to show me where to go and took me in the cart to the convention center elevators. It was VIP treatment and Val deserves only the best review I could possibly give!!! Send this man on a nice trip! He deserves it. Customer service is something you don’t see anymore since Covid. He is truly a great human.
+
+• Val is the best valet/greeter!
+We checked in and were greeted by Val. He was friendly and courteous. He made me laugh and then I didn’t want to strangle my husband anymore! It is so nice to encounter such a positive person right when you get to your destination.
+
+
+Val the Valet was awesome. Thanks for the great service!
+Val the valet was cool as heck. He helped us off load our crap with a swiftness. Super rad guy, while singing along with our kick ass tune when we pulled up. The Roots, The Seed 2.0. We entertained the lobby for a solid 10 minutes!
+
+• Val the Valet is king!!
+Val the valet was by far the best valet experience I’ve had in the last 5 years traveling to San Diego. Courteous, knowledgeable, and fantastic at coordinating the multiple lanes at the Marriott Marquis property. Outstanding employee and one who is passionate about his job….which is rare in this new economy. THANK YOU VAL!!
+
+• Great Valet service at the Marriott Marquis and Marina
+Great service. Val and Robert were wonderful Valets. Friendly, fast and organized especially during a busy holiday weekend. Others were courteous and helpful as well but I didn’t catch their names. No better place to park when you are staying at the Marriott Marquis and Marina
+
+• Val the Vallet the best employe at the Marriott
+Val from the Vallet. He made our trip!!! We came with 2 teenage boys who didn’t want to be here with us but he connected with our boys and told them about a good skate spot and they loved it. We need more people like Val!!!
+
+• VAL IN VALET IS THE MAN!
+Val in valet made our trip. Is hard to find guys like Val these days with the current worth Ethic crisis in America. Val need to be recognized for his Exceptional work Ethic and positive Attitude. He is a value able employee to The Marriott organization.
+
+•Fun and relaxing!
+Two of the guys from valet, Val and Asa, started our stay off right! We had so much heavy luggage as well as really heavy ice chests and they made unloading our SUV look so easy and were so kind! We really appreciated how great they were!
+
+• Val the valet gets an A
+Val is a great valet and really considerate to his guests. I enjoyed his service and excellent attitude! I appreciate him very, very much. Whatever he’s being paid he should get a raise. All hail Val.
+
+• Worth it
+Great Hotel with amazing restaurants and service all the staff was kind shoutout to Val The Man at valet took care of me and my family with his great recommendations the restaurants just pure enjoyment from the vibe to the food will definitely come back in the near future
+
+• Awesome Valet!
+Val the Valet was awesome with Parking support! Super friendly guy ( Substitute Teacher by day) … great recommendations on things to do in the area and how to navigate within the hotel! Anyone who goes by “Val the Valet” must be cool!
+
+• Val the Valet
+I had a wonderful experience with Val who is an absolutely amazing valet. Super nice, personable, and professional. Would love to have Val as my valet every time I visit the Marriott Marquis. 10/10 would recommend this facility and Val.
+
+• Val the Valet
+Val the Valet has the greatest attitude I’ve encountered. This is my second stay here and as soon as we pulled in, I remembered him from my previous visit. He treats everyone with the upmost respect. As being the first face seen, he definitely makes your stay at this hotel feel warm and very welcomed.
+
+• Delightful
+Val was amazing!!! With amazing service! He was so sweet. He made getting our car in and out of valet so easy and no wait time. Will definitely recommend him for valet services. Looking forward to coming again!
+
+• From start to finish!
+Val the valet was amazing! He was so helpful and kind. The staff at this hotel are superb, very professional and accommodating! I appreciated their willingness to help up us with our event, From start to finish, I highly recommend this hotel for your next event.
+
+• Cheers to Val at the Valet ;)
+Beautiful hotel on the water with a lot for the family to enjoy within walking distance. Val at the valet was especially helpful with the luggage and very kind. Crystal at the front desk was also spectacular. We will be back!!
+
+• Val the valet
+Val is amazing! he is the Sweetest guy at the valet. Gave us tons of recommendations of things to do around town. Checking in was an easy experience and they let us check in early which was perfect.
+
+• Val the Valet
+Val at the Valet was the only bright spot for my day. Saved me money and a major headache trying to get parking sorted out. Would recommend this place solely because of his help. The place was an absolute zoo trying to get everything situated and he went out of his way to help make things way easier. Dude was a savior
+
+• Fantastic experience
+Love this hotel, been back a couple of times. Customer service is great, especially Val the valet. Helped with the bags getting into the car and made sure we knew where we were going. An awesome experience at the end of our trip which will influence our decision to come back here.
+
+• Amazing weekend
+Went here for a little staycation and it didn’t disappoint. Val at the Valet was amazing! The bartenders were always sweet and attentive. The hotel was beautiful and we’ll definitely be back in the near future.
+
+
+• Great service, great hotel
+Love staying here. Val the valet is great, wonderful service and greets you with a smile! Rooms are nice and the view is beautiful. Stayed for one night to enjoy a night out in the town downtown. Definitely one of the best hotels with the best service.
+
+• Val The Valet
+Hotel is quite nice and large. Had a wonderful corner room in the South Tower that enabled us to see both sunrises and sunsets. There were times that the people were too much for me but the amenities were fantastic. Val (The Valet) was THE BEST as well. Helpful, engaging and funny. Made me want to just hang out with him for the day.
+
+• Nobody like Val!!!! NOBODY!!
+Val is the BEST!!! You need 30 more of him! Awesome service, and just an awesome guy! It’s like he knew me!!! I appreciate his kindness and his level of attention. It’s little things like a Val in your experience that make trip that much more valuable!
+
+• Val was the best part.
+Nice stay. Room was comfortable. Only complaint is all night long we could hear the doors from the other room slamming each time they opened and closed. Made it difficult to sleep at times.
+
+Val was best valet. Personable, helpful and sweet. Thanks for everything.
+
+Val is the greatest
+Val is amazing! Best valet attendant in all of San Diego and I always look forward to seeing him at the Marriott Marquis. My company is at the hotel frequently and he always has a smile on his face!!!
+
+• Val the Valet gets five stars!
+One of the best things a valet can do to make guests feel welcome is open the front passenger door first. Val gets this. Furthermore his smile brightens the day. We often use the valet and find many go right to the driver, usually my husband, both coming and going. I wish every valet realized that they are likely to get a better tip if they take care of the front passenger. Thanks Val for showing Marriott how it’s done. You get ⭐️⭐️⭐️⭐️⭐️.
+
+• Great
+Thanks for the speedy service Val The Valet. Great experience at the hotel. Friendly staff. Nice area. Family friendly with a lot of things to do. Different restaurants and top golf simulators! Fun time in SD
+
+• Downtown San Diego Marriott Marquis
+We stay at the Marriott Marquis whenever we are downtown San Diego. We live in north San Diego county but whenever we attend a Padres game or a concert downtown this is our favorite hotel. The views of the bay and the Coronado bridge are spectacular. Val is our favorite valet as he is courteous and helpful!
+
+• Valet service
+Val the Valet provided great service. He pulled my vehicle up extremely quickly and extremely helpful with directions and suggestions. We were having some problems deciding where to eat, and Val the Valet had some great suggestions that turned out to be the best meals of the trip.
+
+• Valet
+Great experience. Val the Valet went above and beyond. He was engaging and helped with every little detail. It’s these types of employees that make you come back to a property. I will definitely be back. I wish everyone treated their job this way it makes a difference.
+
+•Val at Valet
+Val was extremely nice and helpful! We weren’t sure where to go for golf courses and he provided great local insight. He capped off our stay greatly. The hotel had amazing views of the harbor and city as well as amenities for everyone to enjoy.
+
+• Val at Valet is great!
+Val at Valet was so kind and helpful! He made my day! Usually you pull in and people are quick and kind of pushy, he let me take my time, and guided me through a ton of cars. It was a great experience and I hope that I get him again!! Thanks so much, Val!
+
+• Val the Valet
+Val gave us an exceptional valet experience. We are likely going to come back, just because of how great his service is! ACE is lucky to have him! Jay at the valet desk did a great job as well! Great team! Thank you for making our experience a positive one!
+
+• Good luck
+I am only putting a good review for Val in Valet. This hotel over booked and waited till when I came to check in to let me know that “ it’s wasn’t really confirmed because they overbooked” ( even tho I have a confirmation on my bonvoy app ) and unfortunately that I would be moving to another hotel away from the water view that I literally booked but was now going into gaslamp. So embarrassing in the line because nobody else was turned away checking in..I felt like I was going to cry because it was embarrassing going back to my car and Val was super sweet when I walked out and let me vent lol. The manager that came out acted like because they comp the night I shouldn’t be annoyed when I didn’t need a comp. I booked that hotel for a reason and instead this morning I woke up to a nice loud 5k at petco park instead of my marina view balcony.
+
+• Val the Valet
+Val the Valet was awesome! He went there extra mile with friendliness and helpfulness. All the hotel staff was so helpful and kind. Cleaning staff was awesome. Food was good. Location was beautiful. We will definitely be returning as our stay with our family was great!
+
+• Val the Valet ⭐️
+So we made our regular visits to one of our favorite hotels in San Diego. Great location right in the marina and facing Coronado Island. As usual great getaway and good service. As e departed we met Val he was valet he was super professional and really funny ☺️ excellent end to a fun weekend!
+
+• Val the Valet
+Val was an incredibly courteous and friendly valet. His attitude was positive and matched the sunny San Diego weather. He went above and beyond the normal expectation to make sure my car was ready on time. It is clear that he takes pride in his job.
+
+• Amazing stay and service from Val
+The view and service were amazing. Val the Valet was very kind and helped with our luggage and helped with any questions and concerns we had. The pool was warm and very relaxing and overall felt like a paradise. Definitely worth checking out.
+Read more
+
+• Great service.
+Val the valet is amazing. Helped guide me to the EV parking... also gave some great tips on some good food around and in the hotel. Great service! Thanks Val! The hotel is also right on the marina and close to everything, being in downtown San Diego.
+
+• I am going to title this Val.
+Val, was amazing and awesome! He was extremely friendly and helpful. He treated me and my family with the utmost respect. I really appreciate “his kind of service”.
+
+Give that man a raise!! Lol No honestly thank you again from my family to yours Val.
+
+• Val is Excellent!
+Val did the most excellent job of any Valet experience we have had a hotel. When there was a mix up regarding our fault of leaving the car key with Valet, Val sorted out the problem so pressionally and kindly. Best hotel employee we interacted with our whole stay!
+
+
+• Val The valet guy is the best!
+Val The valet guy, is awesome! Great attitude, willing to help, goes above and beyond and is a great representative of excellent high-quality service! What a great way to start my by experiencing his service! Thank you, Val!
+
+• Val the valet was so helpful!
+Val the valet with ACE was so helpful! He made our experience positive and enjoyable, he helped us carry our items and have really great instructions and directions for getting around. We were in town for a work event and conference so it was great to have someone guide us!
+
+• Perfect Spot
+Val (valet) was awesome... Was of great service and very helpful... Overall hotel service was great, the restaurant had awesome food, and the room was perfect... Every time I visit San Diego I will be sure to only stay at this hotel... Thanx fir everything...
+Respectfully,
+Torise
+USMC Retired
+
+Val the valet
+Val the valet gave exceptional service with unloading and parking our car as well as very informative on great food eats around the hotel and places to see while we’re here. Our first day in and started off great with a smile and friendly attitude. Hope all our valets are like Val the next seven days, we will definitely seek him out every time we come to And from the hotel during our stay
+
+• Val the Valet! :)
+Val the valet has great energy, is super friendly, fun, funny and provides great service! He kept our Rolls safe and sound while we ran into the hotel for a quick minute. Thanks Val for making our morning even more enjoyable. You deserve a raise
+Read more
+
+• Val the valet!
+Val the valet greeted us upon arrival and set the tone! He answered all our questions we had about the area, and seemed genuinely interested in making our overnight stay the best possible. Starting with the best west to get tickets to the Padres game, where to eat and what we need to see in the short amount of time we're there. Setting the tone (in a good way) before you even check in is rarity anymore and should be appreciated!
+
+• Thank you
+We always look forward to our trips to San Diego and this year has been no exception, being Marriott point owners this our second year staying with you all the Marquee. From the time we arrived we were treated exceptionally special starting with valet , your guy Val was on it from the git go . He was very courteous and helpful with all of our questions and gave me great direction tips to get to our family gathering in Chula Vista as well as good info about the hotel. Marriott has thousands of employees, Val is definitely top tier ,our stay always starts with the valet and the experience here was second to none , Val picked up on me having a stressful drive in and his graciousness’s turned my attitude 180 degrees. The Marriott family should be proud to have Val and the valet crew as employees and we look forward to coming back.
+Sincerely,
+Dave Cantu
+
+• Val the valet
+Val the Valet was absolutely fantastic at his job! Super personable and very very helpful. We pulled up to the valet and he got mad that we tried to get our bags ourself and then he loaded our incredibly heavy and cumbersome bags all himself to a cart!!
+
+• Val the Valet
+Val the valet crushed it! Friendly, realistic, and handled business professionally. Appreciated his attitude and patience when dealing with some of the other impatient and rude customers. He made a difference on this Memorial Day weekend.
+
+• Awesome Valet Service!
+Val the Valet and team were outstanding. He made sure to communicate with me about oversize vehicle procedures and put my worries at ease. Parking in downtown is not fun, but he made the experience much better. He even gave me some tricks to make the experience even better next time! Thank you!
+
+
+
+
+• Val’s a Pal!
+Val the valet is the best! Took great care of my RV parked safe and sound. I was a bit hesitant at first since my rig is big & bold and not the easiest drive. But Val & his crew are exceptional & stand-up guys. Would absolutely trust them again no problem.
+
+• GREAT STAFF
+Val the Valet was so helpful and friendly! Gave us lots of good inside to surrounding points of interest and restaurants!!!
+
+Great stay!
+Rooms were very clean and beds super comfortable.
+Valet Val was kind, offered directions and acknowledged our teenage son. He is a true asset to the Marriott. Great customer service. We will definitely be returning and recommending this hotel to our friends and family.
+
+• Val the Valet is the man!!
+The Marriott Marquis was the perfect place for our weekend getaway! Hotel and grounds were beautiful. We stayed in a bay view room which had a perfect view of the sail boats and hotel pool down below. The beds were like sleeping on a cloud. The bathroom linens were plush and soft and the staff was impeccable. Special shout out to Val and the rest of the valet team. They were patient and kind dealing with our low battery car key that gave them more than enough trouble over the weekend 🤪 We couldn’t be happier with our stay!
+
+• Great people make a great hotel
+I love this hotel. May 2024, my wife and I stayed here for Memorial day weekend. There were so many people! Breezed through check because I am a Marriot member -- become a member. The suite next to us was Hella Noisy, the manager Crystal was gracious enough to move us to a better room. Big props the way she handled it. The Valet took forever to find our car twice! Their saving grace was Val the Valet. Experienced guy with the gift of Gab. He made waiting, not so bad. I love this hotel but it is over crowded on long weekends. To Marriot, You have special people in place to handle mistakes that happen. We are all human-- but it is the people that make the difference. Take care of these superstars. I have stayed here in the past and I will stay here again --- because of your staff.
+
+• Memorial Day Memory
+My husband and I greatly enjoyed ourselves as newlyweds on our first vacation together. The Marriott Marquis greatly exceeded our expectations. We love the Bayview and taking a walk by the marina. The amenities were very clean. I appreciated all of the artwork throughout the hotel and the attention to detail. The vallet service was exceptional as well. We did not have to wait long for our vehicle to be retrieved each time. Val the valet provided the upmost cordial. His service was the type that you expect when you go away on vacation. He constantly asked if we were content and if there was anything else that we needed even directions on the way home. Val was very professional. Thank you for an amazing time and we greatly look forward to coming back each year as one of our spots.
+
+• Great experience
+Val the valet was absolutely amazing. His fun personality made a great trip better! Definitely a keeper for the hotel! Love this hotel!views and staff are top notch. Rooms are very clean. Have been coming here for years. Always first choice when we come to San Diego!
+
+• Hospitality Starts with the Valet
+Val the Valet was a great first touch for our Marriott Marquis experience. Very helpful and kind with a great attitude and sense of humor. Our kids love the pool here and it is a short walk to Gaslamp and Petco Ballpark. Thanks for the hospitality, Val!!!
+
+• Valet at Marriott is top notch.
+We were staying at the Marriott for the weekend. The valet staff is very nice and prompt with car pick up / drop off. Special shout out to Val. Val is the absolute best! He is basically Superman!! We saw him save a wild kid’s life from a moving car.
+
+• Walk to Concert
+This is a beautiful hotel with a great location. We also had an excellent experience with valet (his name was Val). The location is outstanding as it was easily walkable to see our concert at Rady Shell Jacobs Park. Also, we had some tasty food and drinks at the bar.
+
+• Valet shoutout
+The hotel speaks for itself but I would just like to brag on the valet service here. I forgot something in my car & they went out of their way to look for it while I waited in the lobby. Every single staff member is professional & happy to be there! Especially Vail from valet. He was incredibly respectful & helpful. Thank you Vail - thank you Marquis staff!
+
+• Excellent Valet Service!
+Val the Valet was extremely helpful and polite. My family and I had misunderstood the online parking pre-pay, but Val answered all of questions and resolved our issue within a mater of seconds. Thank you very much for the top-notch service Val!
+
+• Val the Valet is the best !!
+we stayed at the Marriott for Cody Jinks concert and Val at valet greeted us with enthusiasm!! we will be back just because him alone ! thanks val ! he gave us great recommendations and parked our Sprinter which is no easy task. make sure he helps you when you visit.
+
+• Val the Valet! Super guy
+We are still staying at the hotel and it is currently 7/4. We arrived Monday at 1:00am. Therefore Monday was our day to relax at the lovely pool. We had delicious mai tais from the bar.
+Today the hotel is at full capacity and the lobby is insane. We decided to tour National Cabrillo Monument.
+We called for our car from valet. The wait was quite long because the hotel was so busy.
+However I was glad that this happened because I got to met Val the Valet. He explained that with self parking and valet it’s the busiest day of the year. He was super friendly and 2 seconds later our car approached. He’s a magician too lol.
+I hope everyone gets to meet him. I look forward to seeing him again!!
+
+• Val the Valet- quality care
+Val the Valet is hands down the best! I was having a difficult time finding parking as it was a holiday. Val went above and beyond to help me find a space for my large vehicle/dogs, was kind and so pleasant to talk to, and genuinely cared to help solve my problem. He’s one of a kind and the reason it’s a 5 star review at this beautiful hotel in San Diego.
+
+• Val the valet is the man!
+Came to DJ the family pool on June 8th. It was my first time doing that gig so I had no clue where i was going or how to get there. Val the valet was super cool and very helpful. Helped me get where i needed to be and made me laugh too .
+5/5 Stars ⭐️⭐️⭐️⭐️⭐️
+Highly recommend.
+Thank you Val 
+
+Val the Valet
+This review is for Val and Val only. What an amazing human! My partner and I were waiting on our car for not even 10 mins and he made sure we were taken cared off the whole time. Gave us directions and helped with luggage. Amazing dude! Thanks Val!
+
+• Kudos to Val the Valet!
+The valet service was terrific. Val the Valet was upbeat, helpful, and courteous. Shout out to him! Overall the stay was fantastic. Everything was clean and orderly for a very busy Independence Day weekend. Also, pay the extra $$ for the bay view!
+
+• Best Valet in all SD
+Just wanted to let you know how wonderful your valet service is!! 5/5 stars!! I’d also like to shout out to Val the Valet. Excellent service, quick and efficient, kind and so very helpful! Gave us excellent tips for La Jolla. Give this man a raise!
+
+• Val is the best !!
+We worked with SEIU at the the Marriott providing service for an event. Val the valet was superior and helped above and beyond with service. We couldn’t have had a better experience because of his service. We look forward to coming back and hope Val can help us.
+
+
+• Great staff!
+Great hotel for a family trip came for a baseball tournament. Amazing location , tons for the kids to do and the pool/outside area was very clean. Val at the valet was so helpful at accommodating our families needs at a very busy check in/check out time. Thank you!!
+
+• Great valet reception
+Val the Valet welcomed us and made sure to give us local suggestions to start the trip right at the Marriott Marquis in San Diego. It was a really hot day but he was cool and calm despite the driveway loaded with guests. This is a great hotel in a perfect location
+
+• Val the valet
+Shout out to Val the Valet, watched an interaction he had with customer who thought he didn't have valet ticket (misplaced in pocket) and started to get upset but Val had a calm, cool demeanor and told customer he'd take care of him. Val calmly asked customer to check pockets again and he found ticket, relieved and ready to get on with his day!
+
+
+• Val the Valet was very helpful
+Val the valet was very personable, friendly, and helpful in loading and unloading the car.... He told me about some aspects of living in the area, as we just moved our daughter into college here... we also really appreciate help from all the valets during our stay, who were all great.
+
+• Val the Valet is Great!!
+My husband and I always love our weekend getaways in Dan Diego and we have gotten to know Val usually the first guy we see and he is funny, professional and a great way to kick off our trip! The hotel has an amazing pool - so close to downtown and the rooms are great and incredible views of the harbor!
+
+• Great valet
+I had Val the valet help me out and he was terrific. Went out of his way to be helpful and kind. If you are going to drive to the hotel but have to wait on checking in you’ll be provided with great service. And this is a busy place so I watched as he was patient with others as well.
+
+• Valet was excellent
+If you’re in the San Diego area The Marriott Marquis & Marina is your best choice! Right on the water Front within walking distance to restaurants.
+
+Val, Jay & Emmanel were excellent at Valet! Made my trip seamless. They went out of their way to help me and provided great service! I travel for a living and know when I come across great service.
+
+• Positive
+Val and Alex were great performing their duties at the Valet area. Also, Richard the bellman went out of his way with providing information to make my stay more enjoyable.
+
+• Val the awesome Valey guy! This is the best valet service we’ve ever experienced at the downtown Marquis Marriot in SD!❤
+Val the valet is awesome! Took care of us, made sure our car was ready for us on time, helped us with the luggage, told us where we could find an ATM machine because we weren’t sure, great personality. Thank you for having him as a valet! Super helpful!
+
+• Badass Valet
+Val was incredibly helpful, and we greatly appreciate everything he did for us during our stay. He went above and beyond to ensure we had a smooth and enjoyable experience. One of the highlights was his fantastic recommendations for breakfast spots. The places he suggested were not only convenient but offered great food and service, helping us start our days on a high note.
+
+Additionally, Val was always available to assist with parking, which made things much easier for us. His knowledge of the area and willingness to help made navigating the parking situation stress-free, something that could have otherwise been a challenge. His attention to detail and readiness to provide support whenever needed made a big difference for us.
+
+Val’s kindness and helpfulness really stood out, and it’s clear that he genuinely cares about making sure guests have a positive experience. We are grateful for his assistance and the thoughtful effort he put into ensuring we had everything we needed. His contributions definitely made our stay more enjoyable, and we can’t thank him enough for all that he did.
+
+• I am here for ASH
+Val at the Valet was lovely to chat with and he took great care of me and my car. He engaged in conversation and asked me how my morning was going. His customer service was top notch. And Val had a smile on his face the whole time. It was a pleasure to interact with him.
+
+• Awesome experience
+Val the vallet guy was awesome. We have four young kids and Val was helpful in taking care of the bags and car so my wife and I could focus on them. He was Super courteous and friendly. He also provided directions for our next stop. Awesome service all the way around!
+
+• Stellar view
+Gorgeous view bayside. Clean. Up to date. Friendly, helpful staff from mgmt. to my very last contact with Val the Valet. Pool area = resort quality. Great location. Felt very safe. Lots of restaurants nearby. Close to airport. Right next to convention center.
+
+Pricey: No airport shuttle. A mocha cost $9 for one cup. Two pre-made salads ran $48. No microwave in room. Fridge was a wine cooler, so not cold enough to store leftovers.
+
+• A great stay
+Had a great staycation. The staff was great. Especially Val the Valet. He went out of his way to help us on more than one occasion. I’m titanium elite with Bonvoy. This is a solid property. I’m making this hotel my go to while staying in the San Diego region.
+Read more
+
+• Awesome
+Valet service from Val, was helpful and friendly. Top notch service busy time of day offered suggestions for navigating around city We are from New Mexico and staying for a week Will always try to get Val to wait on us during our stay. Top notch customer service
+
+• Val the Valet is Awesome
+Val the Valet guy was awesome! So friendly and welcoming, he really made our day. We had to be there for a business meeting that morning, but Val was the highlight of our trip to the Marriott. He was super helpful when we asked about the traffic and best time of day to head home as well.
+
+• Val from Valet !
+Val working for the valet service was absolutely wonderful!!! We see him every time we visit and he is always so helpful and amazing!!!!!!!!!! He rocks!! Definitely recommend!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+• Val the valet driver
+When coming to the hotel we were not sure what options there were around this area to eat and to keep us entertained. When getting our car val went out of his way to tell us things to do in the area. He was also a very friendly guy who was easy to talk to and was very helpful. He went above and beyond just being a valet driver.
+
+• Valet dog
+Val the valet guy was super helpful in getting our car and making sure we always had what we needed. He was super helpful in helping us figure out places to eat and fun things to do around the area. We are not from here so having that experience from someone who lives around the area was super helpful and left all the stress at the door when it came to figuring out what me and the fam wanted to do.
+
+• Val was great!
+A wonderful experience during the holiday season during our visit at the Marriott Marquis in San Diego….
+
+Starting when you drive up to the Valet, Val the the attendant greeted our family and ensure we had our things ready for the evening.
+
+A special shout out to Val, every time we picked up our car ensure that we had the directions that we needed to get to where we needed to go and that we were having a wonderful time
+
+• Great experience
+Great experience at the hotel, beautiful rooms but honestly Val the Valet guy made the whole trip! He was punctual, funny and very informative on directions! Really put the cherry on top of the whole experience! We’ll be back soon mostly to see Val!
+
+• Val- valet: top tier service and professionalism
+Our experience at Marriot Marquis for the NECA Installation Dinner was wonderful! I want to put a spotlight on Val, our valet upon arrival, for starting our evening with inviting professionalism personal which set the tone for a great evening.
+
+•  Thank you Val
+Val in the valet department went above and beyond to help me with a logistical challenge. He simplified an issue for me by coordinating with staff to make it a seamless experience for me. He is an outstanding guy and provides great customer service. Thank you Val
+
+• Val the valet is the reason I enjoyed my stay at the Marriott
+Val the valet was like a breath of fresh air at the Marriott, or maybe just a really good cologne. He single-handedly turned a corporate event into a comedy show with his kindness and enthusiasm.
+If it weren’t for Val’s dedication to making sure my car was parked in the right spot (and by right spot, I mean not in the middle of the dance floor), I wouldn’t have stayed at this facility. People like Val are the unsung heroes of the hotel world, and I’ll keep coming back just to see what kind of chaos he’ll create next. Plus, I’ll be recommending this Marriott to friends and family, hoping they get a chance to witness Val’s legendary valet skills in action.
+
+• Valet service was the best
+The valet service by Jay Arman was outstanding . He was very helpful and understanding of our situation and helped keep the car for a couple of hours longer .
+Made our life so much easier. Thank you for the service. Highly recommend Marriott and their valet
+
+• The best hotel!
+One of the best hotels I’ve ever been to, from start to finish. The valet was especially accommodating - his name was Val, and not only did he bring our car out in a timely manner, but he made the guests feel very welcomed. Rosie at check-in also upgraded our room to a beach view, very nice of her. The staff definitely made this hotel experience an unforgettable one.
+
+
+• A weekend away from Los Angeles
+We had a great time great service! Food in the Marina kitchen was good along with the free wine for being an elite member of Bonvoy point gave us extra perks. Val the valet was wonderful he was very polite and helpful! Hotel view was beautiful! Unfortunately long weekends are too short
+
+
+• Great check in and valet!
+Val the Valet was awesome, super friendly and Beau at the front desk was quick and efficient. :)
+Always love staying at a Marriott. The view is awesome. Everything is super clean. Could use a few more hangers in the closet but totally fine! :).
+
+• Great experience, from the views to the valet service!
+Great hotel, excellent views - very professional staff. Specifically, Val (works the valet, go figure) was very sharp, professional, and took care of us on several occasions. Val has a very positive attitude which is really nice after a long drive. We arrived to the hotel tired and worn out, and Val wouldn’t let us be in a crappy mood lol. He not only took care of our car but gave us great recommendations for food nearby as well as just fun things to do while we were staying there. Thank you so much for all the help (even late in the evening) Val!
+
+
+• 👍
+Nice hotel with beautiful views and great restaurants and amenities. Special shout out to Val at the valet who took great care of us to make our trips in and out extremely smooth! A few great spots within walking distance as well! Would love to come back and stay at this hotel again!
+
+
+
+Val- valet: top tier service and professionalism
+Our experience at Marriot Marquis for the NECA Installation Dinner was wonderful! I want to put a spotlight on Val, our valet upon arrival, for starting our evening with inviting professionalism personal which set the tone for a great evening.
+
+
+Val in the valet department went above and beyond to help me with a logistical challenge. He simplified an issue for me by coordinating with staff to make it a seamless experience for me. He is an outstanding guy and provides great customer service. 
+
+
+Val the valet was like a breath of fresh air at the Marriott… If it weren’t for Val’s dedication to making sure my car was parked in the right spot … I wouldn’t have stayed at this facility… People like Val are the unsung heroes of the hotel world… Plus, I’ll be recommending this Marriott to friends and family, hoping they get a chance to witness Val’s legendary valet skills in action
+
+
+The valet was especially accommodating - his name was Val, and not only did he bring our car out in a timely manner, but he made the guests feel very welcomed.
+
+Great experience, from the views to the valet service!
+Great hotel, excellent views - very professional staff. Specifically, Val (works the valet, go figure) was very sharp, professional, and took care of us on several occasions. Val has a very positive attitude which is really nice after a long drive. We arrived to the hotel tired and worn out, and Val wouldn’t let us be in a crappy mood lol. He not only took care of our car but gave us great recommendations for food nearby as well as just fun things to do while we were staying there. Thank you so much for all the help (even late in the evening) Val!
+
+Great check in and valet!
+Val the Valet was awesome, super friendly and Beau at the front desk was quick and efficient. :)
+Always love staying at a Marriott. The view is awesome. Everything is super clean. Could use a few more hangers in the closet but totally fine! :).
+
+A weekend away from Los Angeles
+We had a great time great service! Food in the Marina kitchen was good along with the free wine for being an elite member of Bonvoy point gave us extra perks. Val the valet was wonderful he was very polite and helpful! Hotel view was beautiful! Unfortunately long weekends are too short
+
+Great experience all around
+Amazing experience! Val the valet was the most perfect introduction to the property that we could have wished for. His knowledge was indispensable and much appreciated.
+
+The hotel is the epitome of luxury on the San Diego marina. We enjoyed our bayside north tower room.
+
+
+
+Great Valet service - Val
+Val the valet guy made our day, great personality and great service. The Marriott Marquis is a beautiful place, recommend staying for a weekend. We also were able to send a quick FedEx package which was extremely convenient. Thank Marrriot and Val for great service.
+
+
+Great Experience
+Val the Valet was incredibly helpful! Rooms and service were excellent. Amenities are all on point. This is my second conference in as many years here and it simply does not disappoint. Would recommend for family, couples and business alike.
+
+Val is King
+Val is the best at this property hands down! We are blessed to have him at this location. his smile and heart felt greeting is truly cherished! if he retires then they need a great backup in his shoes!! thanks to him our stay started off with a smile!!
+
+Phenominal
+Val the Valet guy is phenominal. See you down at the pool Val.. Great place to stay and experience all that San Diego has to offer. Marriott is my choice and the Marqui brings the best in class service. 👏 😁 😂 😀 😁 😂 😀 😁 😂 😀 😁 😂 😀 😁 😂 😀 😁 😂 😀 😁 😂 😀 😁 😂 😀 😁 😂 😀 😁 😂 😀 😁 😂 Happy Birthday Sister. We love Val the Valet guy. 😆 🤣 😂 😹
+
+Gorgeous views and close to everything.
+We were so pleased with our stay and would absolutely return! Our view was stunning from the 21st floor. Check in was a breeze and they informed us we would be able to see fireworks
+that evening from Seaworld. We received excellent service from the valet especially Val the Valet 10/10!
+
+Night at the Marquis
+We love Val the valet! He is always so warm and welcoming! We love seeing his smiling face every time we stay at the Marquis! His customer service is top notch and he is a staple at the hotel. It is nice to see a familiar face and an employee that takes pride and ownership of his job.
+
+Valet was great!
+Val at the valet was amazing! Great attitude and very helpful. Great way to start the day.
+He brought up the car and helped us with our luggage and opened the door for my wife and a great warming smile. Would come back just for the valet. Hotel was nice and clean.
+
+Awesomeness Overflowing with Val the Valet
+Val was very helpful and professional when I asked him a question. He also took some time out to let me know that his encounter with me was very pleasant, others haven't treated him in the manner I did. I haven't had any Valet of his caliber to have as much professionalism as h
