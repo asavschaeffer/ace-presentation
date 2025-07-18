@@ -236,6 +236,9 @@ class ThreeSceneController {
    * Create background elements (watchtower, plane, etc.)
    */
   createBackgroundElements() {
+    // Create firefighter (valet character)
+    this.createFirefighter();
+    
     // Create watchtower
     this.createWatchtower();
     
@@ -244,6 +247,73 @@ class ThreeSceneController {
     
     // Create binder (initially hidden)
     this.createBinder();
+  }
+
+  /**
+   * Create the firefighter (valet character)
+   */
+  createFirefighter() {
+    this.firefighter = new THREE.Group();
+    
+    // Body (cylinder)
+    const bodyGeometry = new THREE.CylinderGeometry(0.3, 0.3, 1.5);
+    const bodyMaterial = new THREE.MeshLambertMaterial({ color: 0xFF0000 });
+    const body = new THREE.Mesh(bodyGeometry, bodyMaterial);
+    body.position.y = 0.75;
+    body.castShadow = true;
+    
+    // Head (sphere)
+    const headGeometry = new THREE.SphereGeometry(0.25);
+    const headMaterial = new THREE.MeshLambertMaterial({ color: 0xFFDBB3 });
+    const head = new THREE.Mesh(headGeometry, headMaterial);
+    head.position.y = 1.75;
+    head.castShadow = true;
+    
+    // Helmet
+    const helmetGeometry = new THREE.CylinderGeometry(0.3, 0.25, 0.2);
+    const helmetMaterial = new THREE.MeshLambertMaterial({ color: 0xFFFF00 });
+    const helmet = new THREE.Mesh(helmetGeometry, helmetMaterial);
+    helmet.position.y = 1.9;
+    helmet.castShadow = true;
+    
+    // Fire hose (simple cylinder)
+    const hoseGeometry = new THREE.CylinderGeometry(0.05, 0.05, 1.2);
+    const hoseMaterial = new THREE.MeshLambertMaterial({ color: 0x333333 });
+    const hose = new THREE.Mesh(hoseGeometry, hoseMaterial);
+    hose.position.set(0.5, 0.6, 0);
+    hose.rotation.z = Math.PI / 4;
+    
+    // Fire axe (handle + blade)
+    const axeHandleGeometry = new THREE.CylinderGeometry(0.03, 0.03, 0.8);
+    const axeHandleMaterial = new THREE.MeshLambertMaterial({ color: 0x8B4513 });
+    const axeHandle = new THREE.Mesh(axeHandleGeometry, axeHandleMaterial);
+    axeHandle.position.set(-0.5, 0.4, 0);
+    axeHandle.rotation.z = -Math.PI / 6;
+    
+    const axeBladeGeometry = new THREE.BoxGeometry(0.15, 0.3, 0.05);
+    const axeBladeMaterial = new THREE.MeshLambertMaterial({ color: 0xC0C0C0 });
+    const axeBlade = new THREE.Mesh(axeBladeGeometry, axeBladeMaterial);
+    axeBlade.position.set(-0.7, 0.7, 0);
+    
+    this.firefighter.add(body);
+    this.firefighter.add(head);
+    this.firefighter.add(helmet);
+    this.firefighter.add(hose);
+    this.firefighter.add(axeHandle);
+    this.firefighter.add(axeBlade);
+    
+    // Position firefighter
+    this.firefighter.position.set(-5, 0, 0);
+    this.firefighter.scale.set(0.8, 0.8, 0.8);
+    this.firefighter.userData = {
+      type: 'firefighter',
+      isInteractable: true,
+      isVisible: false
+    };
+    this.firefighter.name = 'firefighter';
+    this.firefighter.visible = false; // Initially hidden
+    
+    this.scene.add(this.firefighter);
   }
 
   /**
@@ -439,7 +509,7 @@ class ThreeSceneController {
     
     // Check for paper intersections
     const paperMeshes = this.papers.map(paper => paper.children[0]).filter(mesh => mesh && mesh.userData.isClickable);
-    const intersects = this.raycaster.intersectObjects(paperMeshes);
+    let intersects = this.raycaster.intersectObjects(paperMeshes);
     
     if (intersects.length > 0) {
       const clickedMesh = intersects[0].object;
@@ -451,6 +521,39 @@ class ThreeSceneController {
           detail: { problemData, paperMesh: clickedMesh }
         });
         window.dispatchEvent(paperClickEvent);
+        return;
+      }
+    }
+    
+    // Check for interactive object intersections (firefighter, watchtower, plane, binder)
+    const interactiveObjects = [];
+    if (this.firefighter && this.firefighter.visible) {
+      interactiveObjects.push(...this.firefighter.children);
+    }
+    if (this.watchtower && this.watchtower.visible) {
+      interactiveObjects.push(...this.watchtower.children);
+    }
+    if (this.plane && this.plane.visible) {
+      interactiveObjects.push(...this.plane.children);
+    }
+    if (this.binder && this.binder.visible) {
+      interactiveObjects.push(...this.binder.children);
+    }
+    
+    intersects = this.raycaster.intersectObjects(interactiveObjects);
+    
+    if (intersects.length > 0) {
+      const clickedMesh = intersects[0].object;
+      const parentGroup = clickedMesh.parent;
+      
+      if (parentGroup === this.firefighter) {
+        this.onFirefighterClick();
+      } else if (parentGroup === this.watchtower) {
+        this.onWatchtowerClick();
+      } else if (parentGroup === this.plane) {
+        this.onPlaneClick();
+      } else if (parentGroup === this.binder) {
+        this.onBinderClick();
       }
     }
   }
@@ -586,12 +689,17 @@ class ThreeSceneController {
       }
     });
     
+    // Show firefighter
+    this.firefighter.visible = true;
+    this.firefighter.userData.isVisible = true;
+    
     // Show background elements subtly
     this.watchtower.visible = true;
-    this.watchtower.material = new THREE.MeshLambertMaterial({ 
-      color: 0x95a5a6,
-      transparent: true,
-      opacity: 0.3
+    this.watchtower.traverse(child => {
+      if (child.isMesh) {
+        child.material.transparent = true;
+        child.material.opacity = 0.3;
+      }
     });
     
     setTimeout(() => {
@@ -982,6 +1090,244 @@ class ThreeSceneController {
    */
   getIsAnimating() {
     return this.isAnimating;
+  }
+
+  /**
+   * Handle firefighter click
+   */
+  onFirefighterClick() {
+    console.log('Firefighter clicked!');
+    
+    // Animate firefighter action
+    this.animateFirefighterAction();
+    
+    // Dispatch event
+    const firefighterClickEvent = new CustomEvent('firefighterClicked', {
+      detail: { 
+        character: 'firefighter',
+        message: 'The valet is ready to tackle problems as they arise!'
+      }
+    });
+    window.dispatchEvent(firefighterClickEvent);
+  }
+
+  /**
+   * Handle watchtower click
+   */
+  onWatchtowerClick() {
+    console.log('Watchtower clicked!');
+    
+    // Animate watchtower action
+    this.animateWatchtowerAction();
+    
+    // Dispatch event
+    const watchtowerClickEvent = new CustomEvent('watchtowerClicked', {
+      detail: { 
+        character: 'watchtower',
+        message: 'The manager oversees operations from the watchtower!'
+      }
+    });
+    window.dispatchEvent(watchtowerClickEvent);
+  }
+
+  /**
+   * Handle plane click
+   */
+  onPlaneClick() {
+    console.log('Plane clicked!');
+    
+    // Animate plane action
+    this.animatePlaneAction();
+    
+    // Dispatch event
+    const planeClickEvent = new CustomEvent('planeClicked', {
+      detail: { 
+        character: 'plane',
+        message: 'The executive surveys the big picture from above!'
+      }
+    });
+    window.dispatchEvent(planeClickEvent);
+  }
+
+  /**
+   * Handle binder click
+   */
+  onBinderClick() {
+    console.log('Binder clicked!');
+    
+    // Animate binder opening
+    this.animateBinderOpening();
+    
+    // Dispatch event
+    const binderClickEvent = new CustomEvent('binderClicked', {
+      detail: { 
+        object: 'binder',
+        message: 'The operations manual contains all systematic procedures!'
+      }
+    });
+    window.dispatchEvent(binderClickEvent);
+  }
+
+  /**
+   * Animate firefighter action
+   */
+  animateFirefighterAction() {
+    const originalY = this.firefighter.position.y;
+    const startTime = Date.now();
+    const duration = 1000;
+    
+    // Create water spray effect
+    this.createWaterSprayEffect();
+    
+    const animateStep = () => {
+      const elapsed = Date.now() - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      
+      const bounce = Math.sin(progress * Math.PI * 4) * 0.2;
+      this.firefighter.position.y = originalY + bounce;
+      
+      // Rotate the hose
+      const hose = this.firefighter.children.find(child => child.material && child.material.color.getHex() === 0x333333);
+      if (hose) {
+        hose.rotation.y = Math.sin(progress * Math.PI * 8) * 0.3;
+      }
+      
+      if (progress < 1) {
+        requestAnimationFrame(animateStep);
+      } else {
+        this.firefighter.position.y = originalY;
+        if (hose) hose.rotation.y = 0;
+      }
+    };
+    
+    animateStep();
+  }
+
+  /**
+   * Animate watchtower action
+   */
+  animateWatchtowerAction() {
+    const originalRotation = this.watchtower.rotation.y;
+    const startTime = Date.now();
+    const duration = 2000;
+    
+    const animateStep = () => {
+      const elapsed = Date.now() - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      
+      this.watchtower.rotation.y = originalRotation + progress * Math.PI * 2;
+      
+      if (progress < 1) {
+        requestAnimationFrame(animateStep);
+      } else {
+        this.watchtower.rotation.y = originalRotation;
+      }
+    };
+    
+    animateStep();
+  }
+
+  /**
+   * Animate plane action
+   */
+  animatePlaneAction() {
+    const originalPosition = this.plane.position.clone();
+    const startTime = Date.now();
+    const duration = 3000;
+    const radius = 8;
+    
+    const animateStep = () => {
+      const elapsed = Date.now() - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      
+      const angle = progress * Math.PI * 2;
+      this.plane.position.x = originalPosition.x + Math.cos(angle) * radius;
+      this.plane.position.z = originalPosition.z + Math.sin(angle) * radius;
+      this.plane.rotation.y = angle + Math.PI / 2;
+      
+      if (progress < 1) {
+        requestAnimationFrame(animateStep);
+      } else {
+        this.plane.position.copy(originalPosition);
+        this.plane.rotation.y = 0;
+      }
+    };
+    
+    animateStep();
+  }
+
+  /**
+   * Animate binder opening
+   */
+  animateBinderOpening() {
+    const coverMesh = this.binder.children[0];
+    if (!coverMesh) return;
+    
+    const startTime = Date.now();
+    const duration = 1000;
+    
+    const animateStep = () => {
+      const elapsed = Date.now() - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      
+      const openAngle = progress * Math.PI / 2;
+      coverMesh.rotation.z = openAngle;
+      
+      if (progress < 1) {
+        requestAnimationFrame(animateStep);
+      }
+    };
+    
+    animateStep();
+  }
+
+  /**
+   * Create water spray effect
+   */
+  createWaterSprayEffect() {
+    const particleCount = 20;
+    const particles = [];
+    
+    for (let i = 0; i < particleCount; i++) {
+      const particle = new THREE.Mesh(
+        new THREE.SphereGeometry(0.02),
+        new THREE.MeshLambertMaterial({ color: 0x87CEEB })
+      );
+      
+      particle.position.set(
+        this.firefighter.position.x + 0.5,
+        this.firefighter.position.y + 1,
+        this.firefighter.position.z
+      );
+      
+      particle.velocity = new THREE.Vector3(
+        (Math.random() - 0.5) * 0.1,
+        Math.random() * 0.2,
+        (Math.random() - 0.5) * 0.1
+      );
+      
+      particles.push(particle);
+      this.scene.add(particle);
+    }
+    
+    // Animate particles
+    const animateParticles = () => {
+      particles.forEach(particle => {
+        particle.position.add(particle.velocity);
+        particle.velocity.y -= 0.01; // Gravity
+        particle.material.opacity -= 0.02;
+        
+        if (particle.material.opacity <= 0) {
+          this.scene.remove(particle);
+        }
+      });
+      
+      if (particles.some(p => p.material.opacity > 0)) {
+        requestAnimationFrame(animateParticles);
+      }
+    };
+    
+    animateParticles();
   }
 }
 

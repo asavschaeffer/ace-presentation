@@ -304,13 +304,24 @@
         </div>
     </div>
 
-    <!-- Scripts -->
+    <!-- Scripts - Load in correct order -->
+    <script>
+      // Wait for Three.js to load before initializing
+      window.addEventListener('DOMContentLoaded', () => {
+        if (typeof THREE === 'undefined') {
+          console.error('Three.js not loaded!');
+          return;
+        }
+        console.log('Three.js loaded successfully');
+      });
+    </script>
+    
     <script src="js/data-manager.js"></script>
-    <script src="js/three-scene.js"></script>
+    <script src="js/three-scene-simple.js"></script>
     <script src="js/ui-controller.js"></script>
     <script src="js/animation-controller.js"></script>
     <script src="js/modal-system.js"></script>
-    <script src="js/presentation-controller.js"></script>
+    <script src="js/presentation-controller.js?v=2"></script>
     <script src="js/demo-mode.js"></script>
     <script src="js/pdf-export.js"></script>
     <script src="js/main.js"></script>
